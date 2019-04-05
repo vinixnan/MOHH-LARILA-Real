@@ -71,6 +71,11 @@
             <artifactId>jmetal-exec</artifactId>
             <version>5.7</version>
         </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>jMetalRealWorldProblems</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

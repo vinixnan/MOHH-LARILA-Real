@@ -7,7 +7,7 @@ import org.uma.jmetal.problem.Problem;
 import org.uma.jmetal.problem.multiobjective.wfg.*;
 import org.uma.jmetal.solution.Solution;
 import realproblems.vehiclecrashworthiness.*;
-//import uk.ac.nottingham.asap.realproblems.*;
+import uk.ac.nottingham.asap.realproblems.*;
 
 /**
  *
@@ -81,13 +81,32 @@ public class ProblemCreator {
             return null;
         }
     }
+    
+    protected Problem getRealWorld(int problemIndex) {
+        switch (problemIndex) {
+            case 0:
+                return new HeatExchanger();
+            case 1:
+                return new DiskBrakeDesign();
+            case 2:
+                return new WeldedBeamDesign();
+            case 3:
+                return new HydroDynamics();
+            case 4:
+                return new OpticalFilter();
+            case 5:
+                return new VibratingPlatformDesign();
+            default:
+                return null;
+        }
+    }
 
     public Problem getProblemInstance(int problemIndex) {
         switch (problemClass) {
             case "WFG":
                 return getWFG(problemIndex);
-            //case "Real":
-            //    return getRealWorld(problemIndex);
+            case "Real":
+                return getRealWorld(problemIndex);
             case "VC":
                 return getVC(problemIndex);
             default:

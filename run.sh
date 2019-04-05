@@ -15,9 +15,10 @@ function runIt {
 
 rm -f "runMain.txt"
 kinds="0 1"
-sizes="50"
+sizes="10 20"
 problemClass="WFG"
-qtdAlgs=3
+problemClass="Real"
+qtdAlgs=5
 
 
 for size in $sizes 
@@ -28,5 +29,5 @@ do
 	done	
 done
 
-cat "runMain.txt" | xargs -I CMD -P 2  bash -c CMD &
+cat "runMain.txt" | xargs -I CMD -P 5  bash -c CMD &
 wait
