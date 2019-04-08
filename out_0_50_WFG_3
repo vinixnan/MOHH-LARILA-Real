@@ -1,0 +1,8361 @@
+WFG qtdAlgs=3 fixedGeneration=50 with runningAlgorithmIndex=0 run for 40
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 0 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 0 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 0 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 2 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 0 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 0 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 0 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 0 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 0 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 0 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 0 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 0 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 2 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 0 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 0 at 30000
+Create 2 at 25000
+Create 0 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 0 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 0 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 2 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 0 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 2 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 2 at 15000
+Create 0 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 0 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 2 at 30000
+Create 0 at 25000
+Create 2 at 20000
+Create 0 at 15000
+Create 2 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 0 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 0 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 0 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 0 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 0 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 0 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 0 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 2 at 30000
+Create 0 at 25000
+Create 2 at 20000
+Create 0 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 0 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 0 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 0 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 0 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 0 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 2 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 0 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 0 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 0 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 0 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 1 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 0 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 1 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 0 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 0 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 0 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 0 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 0 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 1 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 0 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 0 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 0 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 1 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 0 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
+[NSGAII, SPEA2, IBEA]
+WFG1 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 0 at 35000
+Create 0 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG2 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 1 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 2 at 80000
+Create 1 at 75000
+Create 1 at 70000
+Create 1 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 0 at 30000
+Create 0 at 25000
+Create 0 at 20000
+Create 0 at 15000
+Create 0 at 10000
+Create 0 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG3 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 0 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 0 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG4 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 2 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 0 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG5 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 0 at 75000
+Create 2 at 70000
+Create 0 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 0 at 30000
+Create 2 at 25000
+Create 1 at 20000
+Create 2 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG6 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 0 at 85000
+Create 1 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 2 at 55000
+Create 1 at 50000
+Create 2 at 45000
+Create 0 at 40000
+Create 1 at 35000
+Create 2 at 30000
+Create 1 at 25000
+Create 2 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG7 is running...
+Set iterations=1000 popSize=100
+Create 0 at 100000
+Create 2 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 0 at 80000
+Create 1 at 75000
+Create 2 at 70000
+Create 2 at 65000
+Create 2 at 60000
+Create 2 at 55000
+Create 0 at 50000
+Create 1 at 45000
+Create 2 at 40000
+Create 2 at 35000
+Create 2 at 30000
+Create 2 at 25000
+Create 2 at 20000
+Create 2 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG8 is running...
+Set iterations=1000 popSize=100
+Create 2 at 100000
+Create 0 at 95000
+Create 2 at 90000
+Create 2 at 85000
+Create 2 at 80000
+Create 2 at 75000
+Create 1 at 70000
+Create 0 at 65000
+Create 1 at 60000
+Create 0 at 55000
+Create 1 at 50000
+Create 1 at 45000
+Create 1 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 2 at 10000
+Create 2 at 5000
+Remain solution evl is 0. Iteration is 20
+WFG9 is running...
+Set iterations=1000 popSize=100
+Create 1 at 100000
+Create 2 at 95000
+Create 1 at 90000
+Create 1 at 85000
+Create 0 at 80000
+Create 2 at 75000
+Create 2 at 70000
+Create 1 at 65000
+Create 2 at 60000
+Create 0 at 55000
+Create 2 at 50000
+Create 2 at 45000
+Create 2 at 40000
+Create 1 at 35000
+Create 1 at 30000
+Create 1 at 25000
+Create 1 at 20000
+Create 1 at 15000
+Create 1 at 10000
+Create 1 at 5000
+Remain solution evl is 0. Iteration is 20
+Finished...
