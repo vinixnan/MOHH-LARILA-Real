@@ -10,7 +10,7 @@ import jmetal.qualityIndicator.HyperVolumeMinimizationProblem;
 
 import helpers.AlgorithmCreator;
 import helpers.ProblemCreator;
-import interfaces.LLHInterface;
+import br.usp.poli.pcs.lti.jmetalhhhelper.core.interfaces.LLHInterface;
 import java.io.File;
 import java.util.Arrays;
 import java.util.List;

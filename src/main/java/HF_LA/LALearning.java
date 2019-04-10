@@ -1,13 +1,12 @@
 package HF_LA;
 
-import interfaces.LLHInterface;
+import br.usp.poli.pcs.lti.jmetalhhhelper.core.interfaces.LLHInterface;
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import javax.management.JMException;
-import org.uma.jmetal.algorithm.Algorithm;
 import org.uma.jmetal.operator.Operator;
 import org.uma.jmetal.problem.Problem;
 

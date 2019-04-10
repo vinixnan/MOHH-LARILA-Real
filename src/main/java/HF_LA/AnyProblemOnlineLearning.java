@@ -11,7 +11,7 @@ import java.util.Properties;
 import jmetal.qualityIndicator.HyperVolumeMinimizationProblem;
 import jmetal.qualityIndicator.util.MetricsUtil;
 import java.io.File;
-import interfaces.LLHInterface;
+import br.usp.poli.pcs.lti.jmetalhhhelper.core.interfaces.LLHInterface;
 import java.util.Arrays;
 import java.util.List;
 import javax.management.JMException;

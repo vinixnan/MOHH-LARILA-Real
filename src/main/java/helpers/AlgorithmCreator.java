@@ -1,13 +1,13 @@
 package helpers;
 
-import interfaces.LLHInterface;
+import br.usp.poli.pcs.lti.jmetalhhhelper.core.ParametersforAlgorithm;
+import br.usp.poli.pcs.lti.jmetalhhhelper.core.ParametersforHeuristics;
+import br.usp.poli.pcs.lti.jmetalhhhelper.core.interfaces.LLHInterface;
+import br.usp.poli.pcs.lti.jmetalhhhelper.util.AlgorithmBuilder;
 import java.util.Comparator;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.management.JMException;
-import jmetalhelper.AlgorithmBuilder;
-import jmetalhelper.ParametersforAlgorithm;
-import jmetalhelper.ParametersforHeuristics;
 import org.apache.commons.configuration2.ex.ConfigurationException;
 import org.uma.jmetal.algorithm.Algorithm;
 import org.uma.jmetal.algorithm.multiobjective.gde3.GDE3;
@@ -112,7 +112,7 @@ public class AlgorithmCreator {
 
         int matingPoolSize = configAlg.getPopulationSize();
         int offspringPopulationSize = configAlg.getPopulationSize();
-        int k = ab.getK();
+        int k = 1;
 
         switch (chosenHeuristic) {
             case 0:

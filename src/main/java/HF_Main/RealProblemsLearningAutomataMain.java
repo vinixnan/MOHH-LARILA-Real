@@ -12,7 +12,7 @@ import HF_LA.LALearning;
 import HF_RandomGenerator.RandomGenerator;
 import helpers.AlgorithmCreator;
 import helpers.ProblemCreator;
-import interfaces.LLHInterface;
+import br.usp.poli.pcs.lti.jmetalhhhelper.core.interfaces.LLHInterface;
 import java.io.FileInputStream;
 import java.util.List;
 import java.util.Properties;
