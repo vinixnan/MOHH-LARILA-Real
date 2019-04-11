@@ -42,6 +42,8 @@ public class BechmarkDILAnew<S extends Solution<?>> extends LALearning {
     int populationSize;
     double[] minimumValues;
     double[] maximumValues;
+    
+    protected int acceptedQtdValue;
 
     // the increase speed of the threshold of hypervolume
     double increaseSpeed = 1.0;
@@ -145,6 +147,10 @@ public class BechmarkDILAnew<S extends Solution<?>> extends LALearning {
 
         minimumValues = new double[numberOfObj];
         maximumValues = new double[numberOfObj];
+        
+        for (int i = 0; i < algorithms.length; i++) {
+            acceptedQtdValue += i;
+        }
 
     }
 
@@ -188,6 +194,10 @@ public class BechmarkDILAnew<S extends Solution<?>> extends LALearning {
 
         minimumValues = new double[numberOfObj];
         maximumValues = new double[numberOfObj];
+        
+        for (int i = 0; i < algorithms.length; i++) {
+            acceptedQtdValue += i;
+        }
     }
 
     public List<S> runLA() throws IOException, ClassNotFoundException,
@@ -536,7 +546,7 @@ public class BechmarkDILAnew<S extends Solution<?>> extends LALearning {
                     reRankSum += scoreRank[i];
                 }
 
-                if (reRankSum != algorithms.length) {
+                if (reRankSum != acceptedQtdValue) {
                     for (int j : scoreRank) {
                         System.out.print("Rerank error: " + j + " ");
                     }
@@ -749,11 +759,11 @@ public class BechmarkDILAnew<S extends Solution<?>> extends LALearning {
 
                     }
                 }
-                if (precessorHeuristic < 0 || precessorHeuristic > 2) {
+                if (precessorHeuristic < 0 || precessorHeuristic > algorithms.length - 1) {
                     System.out.println("Invalid precessorHeuristic index!" + precessorHeuristic);
                     System.exit(0);
                 }
-                if (nextHeuristic < 0 || nextHeuristic > 2) {
+                if (nextHeuristic < 0 || nextHeuristic > algorithms.length - 1) {
                     System.out.println("Invalid nextHeuristic index!" + nextHeuristic);
                     System.exit(0);
                 }
@@ -845,11 +855,11 @@ public class BechmarkDILAnew<S extends Solution<?>> extends LALearning {
                 Temperature = Math.pow(decayFactor, iteration) * InitialTemperature;
                 temperatureList.add(Temperature);
 
-                if (precessorHeuristic < 0 || precessorHeuristic > 2) {
+                if (precessorHeuristic < 0 || precessorHeuristic > algorithms.length - 1) {
                     System.out.println("Invalid precessorHeuristic index!" + precessorHeuristic);
                     System.exit(0);
                 }
-                if (nextHeuristic < 0 || nextHeuristic > 2) {
+                if (nextHeuristic < 0 || nextHeuristic > algorithms.length - 1) {
                     System.out.println("Invalid nextHeuristic index!" + nextHeuristic);
                     System.exit(0);
                 }

@@ -89,7 +89,7 @@ public class WFGStudy<S extends Solution<?>> {
                         .setIndicatorList(Arrays.asList(
                                 new PISAHypervolume<DoubleSolution>()))
                         .setIndependentRuns(INDEPENDENT_RUNS)
-                        .setNumberOfCores(3)
+                        .setNumberOfCores(4)
                         .build();
 
         new ExecuteAlgorithms<>(experiment).run();
@@ -112,7 +112,7 @@ public class WFGStudy<S extends Solution<?>> {
         for (int run = 0; run < INDEPENDENT_RUNS; run++) {
             for (int i = 0; i < problemList.size(); i++) {
                 AlgorithmCreator ac = new AlgorithmCreator(problemList.get(i).getProblem());
-                ac.setMaxEvaluationsAndPopulation(500 * 100, 100);
+                ac.setMaxEvaluationsAndPopulation(1000 * 100, 100);
                 //edited algs
                 
                 for (int j = 0; j < 5; j++) {

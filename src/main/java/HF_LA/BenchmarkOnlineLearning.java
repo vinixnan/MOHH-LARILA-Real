@@ -507,11 +507,11 @@ public class BenchmarkOnlineLearning<S extends Solution<?>> extends LALearning {
 
                 /*				Temperature = Math.pow(decayFactor, iteration) * InitialTemperature;
 				temperatureList.add(Temperature);*/
-                if (precessorHeuristic < 0 || precessorHeuristic > 2) {
+                if (precessorHeuristic < 0 || precessorHeuristic > algorithms.length - 1) {
                     System.out.println("Invalid precessorHeuristic index!" + precessorHeuristic);
                     System.exit(0);
                 }
-                if (nextHeuristic < 0 || nextHeuristic > 2) {
+                if (nextHeuristic < 0 || nextHeuristic > algorithms.length - 1) {
                     System.out.println("Invalid nextHeuristic index!" + nextHeuristic);
                     System.exit(0);
                 }

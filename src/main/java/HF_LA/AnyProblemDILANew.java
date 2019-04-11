@@ -799,7 +799,7 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
                     System.out.println("Invalid precessorHeuristic index!" + precessorHeuristic);
                     System.exit(0);
                 }
-                if (nextHeuristic < 0 || nextHeuristic > algorithm.length - 1) {
+                if (nextHeuristic < 0 || nextHeuristic > algorithms.length - 1) {
                     System.out.println("Invalid nextHeuristic index!" + nextHeuristic);
                     System.exit(0);
                 }
@@ -1557,7 +1557,7 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
                     System.out.println("Invalid precessorHeuristic index!" + precessorHeuristic);
                     System.exit(0);
                 }
-                if (nextHeuristic < 0 || nextHeuristic > algorithm.length - 1) {
+                if (nextHeuristic < 0 || nextHeuristic > algorithms.length - 1) {
                     System.out.println("Invalid nextHeuristic index!" + nextHeuristic);
                     System.exit(0);
                 }

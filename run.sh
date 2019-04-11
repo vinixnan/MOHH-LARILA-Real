@@ -10,14 +10,17 @@ function runIt {
 	qtdAlgs=$4
 	output="out_"$kind"_"$fixedGen"_"$problemClass"_"$qtdAlgs
 	erroutput="err_"$kind"_"$fixedGen"_"$problemClass"_"$qtdAlgs
-	echo "java -Xms1024m -Xmx1024m -cp target/MOHH-LARILA-1.0-SNAPSHOT.jar:target/lib/* HF_Main.RealProblemsLearningAutomataMain $qtdRun $fixedGen $seed $kind $problemClass $qtdAlgs > $output 2> $erroutput" >> "runMain.txt"
+	
+	#echo "java -Xms1024m -Xmx1024m -cp target/MOHH-LARILA-1.0-SNAPSHOT.jar:target/lib/* HF_Main.RealProblemsLearningAutomataMain $qtdRun $fixedGen $seed $kind $problemClass $qtdAlgs > $output 2> $erroutput" >> "runMain.txt"
+	echo "java -Xms1024m -Xmx1024m -cp 'target/MOHH-LARILA-1.0-SNAPSHOT.jar;target/lib/*' HF_Main.RealProblemsLearningAutomataMain $qtdRun $fixedGen $seed $kind $problemClass $qtdAlgs > $output 2> $erroutput" >> "runMain.txt"
+	
 }
 
 rm -f "runMain.txt"
 kinds="0 1"
 sizes="10 20"
 problemClass="WFG"
-problemClass="Real"
+#problemClass="Real"
 qtdAlgs=5
 
 
@@ -29,5 +32,5 @@ do
 	done	
 done
 
-cat "runMain.txt" | xargs -I CMD -P 5  bash -c CMD &
-wait
+#cat "runMain.txt" | xargs -I CMD -P 5  bash -c CMD &
+#wait

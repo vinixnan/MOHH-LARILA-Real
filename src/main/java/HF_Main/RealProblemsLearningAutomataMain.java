@@ -37,6 +37,7 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
         //Logger logger_ = Configuration.logger_;
         String[] algorithm = {"LAResutls", "DominanceInitalNew", "MetaH"};
         String problemClass = "Real";
+        problemClass = "WFG";
         int qtdAlgs = 5;
         //String configFile = "HF_Config_Benchmark/VCProblemSetting.txt";
         int runningAlgorithmIndex = 1;//0 is LA, 1 is RILA
@@ -60,7 +61,7 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
         }
         System.out.println(problemClass + " qtdAlgs=" + qtdAlgs + " fixedGeneration=" + fixedGeneration + " with runningAlgorithmIndex=" + runningAlgorithmIndex + " run for " + runMax);
         int l = 20;
-        int m = 2;
+        int m = 3;
         int k = 2 * (m - 1);
         ProblemCreator problemCreator = new ProblemCreator(problemClass);
         problemCreator.addParam("m", m);
