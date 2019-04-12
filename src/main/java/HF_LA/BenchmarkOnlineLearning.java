@@ -459,6 +459,9 @@ public class BenchmarkOnlineLearning<S extends Solution<?>> extends LALearning {
 				dominatingPerHis.add(previousDominatingPercentage);*/
                 while (hypImprovement > hyperImproveLimit && tempExecutedGen < maximumIterations && remainEval > 0) { //the current heuristic has potential to improve
                     //the indicator further, but not giving it too many interations for the sake of trying other heuristic
+                    if(inputPop.size() < 100){
+                        System.out.println("Well");
+                    }
                     currentPop = algorithm[instanceIndex].execute(inputPop, fixedSolutionEvl); // TODO Auto-generated catch block
                     // TODO Auto-generated catch block
                     inputPop = currentPop;
