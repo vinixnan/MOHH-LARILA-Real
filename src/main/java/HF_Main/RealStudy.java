@@ -18,6 +18,10 @@ import java.util.List;
 import javax.management.JMException;
 import org.uma.jmetal.solution.Solution;
 import uk.ac.nottingham.asap.realproblems.DiskBrakeDesign;
+import uk.ac.nottingham.asap.realproblems.HeatExchanger;
+import uk.ac.nottingham.asap.realproblems.HydroDynamics;
+import uk.ac.nottingham.asap.realproblems.OpticalFilter;
+import uk.ac.nottingham.asap.realproblems.VibratingPlatformDesign;
 import uk.ac.nottingham.asap.realproblems.WeldedBeamDesign;
 
 /**
@@ -58,8 +62,13 @@ public class RealStudy<S extends Solution<?>> {
         List<ExperimentProblem<DoubleSolution>> problemList = new ArrayList<>();
         
         
-        problemList.add(new ExperimentProblem<>(new WeldedBeamDesign()));
-        problemList.add(new ExperimentProblem<>(new DiskBrakeDesign()));
+        //problemList.add(new ExperimentProblem<>(new WeldedBeamDesign()));
+        //problemList.add(new ExperimentProblem<>(new DiskBrakeDesign()));
+        //problems="VibratingPlatformDesign OpticalFilter WeldedBeamDesign DiskBrakeDesign HeatExchanger HydroDynamics"
+        //problemList.add(new ExperimentProblem<>(new OpticalFilter()));
+        //problemList.add(new ExperimentProblem<>(new VibratingPlatformDesign()));
+        problemList.add(new ExperimentProblem<>(new HeatExchanger()));
+        problemList.add(new ExperimentProblem<>(new HydroDynamics()));
         
 
         List<ExperimentAlgorithm<DoubleSolution, List<DoubleSolution>>> algorithmList
@@ -76,7 +85,7 @@ public class RealStudy<S extends Solution<?>> {
                         .setIndicatorList(Arrays.asList(
                                 new PISAHypervolume<DoubleSolution>()))
                         .setIndependentRuns(INDEPENDENT_RUNS)
-                        .setNumberOfCores(5)
+                        .setNumberOfCores(6)
                         .build();
 
         new ExecuteAlgorithms<>(experiment).run();
