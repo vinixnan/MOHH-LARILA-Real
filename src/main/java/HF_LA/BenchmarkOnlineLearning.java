@@ -12,8 +12,10 @@ import helpers.AlgorithmCreator;
 import helpers.ProblemCreator;
 import br.usp.poli.pcs.lti.jmetalhhhelper.core.interfaces.LLHInterface;
 import java.io.File;
+import java.security.SecureRandom;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 import javax.management.JMException;
 import jmetal.qualityIndicator.util.IBEAFitness;
 import jmetal.qualityIndicator.util.MetricsUtilPlus;
@@ -461,6 +463,10 @@ public class BenchmarkOnlineLearning<S extends Solution<?>> extends LALearning {
                     //the indicator further, but not giving it too many interations for the sake of trying other heuristic
                     if(inputPop.size() < 100){
                         System.out.println("Well");
+                        Random rdn=new SecureRandom();
+                        while(inputPop.size() < 100){
+                            inputPop.add(inputPop.get(rdn.nextInt(inputPop.size())));
+                        }
                     }
                     currentPop = algorithm[instanceIndex].execute(inputPop, fixedSolutionEvl); // TODO Auto-generated catch block
                     // TODO Auto-generated catch block

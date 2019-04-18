@@ -18,10 +18,10 @@ public class Runner {
     public static void main(String[] args) throws ClassNotFoundException, IOException, JMException, ConfigurationException {
         //int[] fixedGenerations = {10, 20};
         int[] fixedGenerations = {20};
-
+        //WFG qtdAlgs=5 fixedGeneration=10 with runningAlgorithmIndex=0 run for 40
         for (int i = 0; i < fixedGenerations.length; i++) {
             int fixedGeneration = fixedGenerations[i];
-            for (int j = 0; j < 2-1; j++) {
+            for (int j = 0; j < 2; j++) {
                 String[] argv = new String[6];
                 argv[0] = "40";
                 argv[1] = String.valueOf(fixedGeneration);//20 fixedGeneration
@@ -32,6 +32,5 @@ public class Runner {
                 RealProblemsLearningAutomataMain.main(argv);
             }
         }
-
     }
 }
