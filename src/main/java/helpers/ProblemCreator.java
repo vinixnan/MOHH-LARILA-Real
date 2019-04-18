@@ -1,5 +1,8 @@
 package helpers;
 
+import br.usp.poli.pcs.lti.jmetalhhhelper.problems.CarSideImpact;
+import br.usp.poli.pcs.lti.jmetalhhhelper.problems.Machining;
+import br.usp.poli.pcs.lti.jmetalhhhelper.problems.WaterReal;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -73,6 +76,12 @@ public class ProblemCreator {
                     return new VC3();
                 case 3:
                     return new VC4();
+                case 4:
+                    return new WaterReal();
+                case 5:
+                    return new CarSideImpact();
+                case 6:
+                    return new Machining();
                 default:
                     return null;
             }
@@ -121,7 +130,7 @@ public class ProblemCreator {
             case "Real":
                 return 6;
             case "VC":
-                return 4;
+                return 7;
             default:
                 return -1;
         }

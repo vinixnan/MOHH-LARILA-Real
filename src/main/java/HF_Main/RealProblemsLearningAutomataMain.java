@@ -32,12 +32,13 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
         int runMax = 40;
         int problemIndex = 0, algId = 0;
         //for (int problemIndex = 2; problemIndex > 0; problemIndex--) {
-        int fixedGeneration = 10;
+        int fixedGeneration = 20;
         long seed = System.currentTimeMillis();
         //Logger logger_ = Configuration.logger_;
         String[] algorithm = {"LAResutls", "DominanceInitalNew", "MetaH"};
         String problemClass = "Real";
         problemClass = "WFG";
+        problemClass = "VC";
         int qtdAlgs = 5;
         //String configFile = "HF_Config_Benchmark/VCProblemSetting.txt";
         int runningAlgorithmIndex = 1;//0 is LA, 1 is RILA
