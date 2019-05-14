@@ -105,6 +105,10 @@ public class ProblemCreator {
                 return new OpticalFilter();
             case 5:
                 return new VibratingPlatformDesign();
+            case 6:
+                return new AucMaximization();
+            case 7:
+                return new NeuralNetDoublePoleBalancing();
             default:
                 return null;
         }
