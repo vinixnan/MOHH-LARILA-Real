@@ -37,13 +37,14 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
         //Logger logger_ = Configuration.logger_;
         String[] algorithm = {"LAResutls", "DominanceInitalNew", "MetaH"};
         String problemClass = "Real";
-        problemClass = "WFG";
-        problemClass = "VC";
+        //problemClass = "WFG";
+        //problemClass = "VC";
         int qtdAlgs = 5;
         //String configFile = "HF_Config_Benchmark/VCProblemSetting.txt";
         int runningAlgorithmIndex = 1;//0 is LA, 1 is RILA
         //runningAlgorithmIndex = 0;//0 is LA, 1 is RILA
-        if (args.length == 6) {
+        int run=0;
+        if (args.length == 7) {
             //$qtdRun $fixedGen $seed $kind $problemClass $qtdAlgs
             runMax = Integer.parseInt(args[0]);
             fixedGeneration = Integer.parseInt(args[1]);
@@ -54,13 +55,15 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
             runningAlgorithmIndex = Integer.parseInt(args[3]);
             problemClass = args[4];
             qtdAlgs = Integer.parseInt(args[5]);
+            run = Integer.parseInt(args[6]);
+            runMax=run+1;
         } else if (args.length == 3) {
             algId = Integer.parseInt(args[0]);
             problemIndex = Integer.parseInt(args[1]);
             problemClass = args[2];
             System.out.println("Run IT Pal");
         }
-        System.out.println(problemClass + " qtdAlgs=" + qtdAlgs + " fixedGeneration=" + fixedGeneration + " with runningAlgorithmIndex=" + runningAlgorithmIndex + " run for " + runMax);
+        System.out.println(problemClass + " qtdAlgs=" + qtdAlgs + " fixedGeneration=" + fixedGeneration + " with runningAlgorithmIndex=" + runningAlgorithmIndex + " run for " + runMax+" from "+run);
         int l = 20;
         int m = 3;
         int k = 2 * (m - 1);
@@ -92,7 +95,7 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
 
         HashMap<String, String> parameterSet = new HashMap();
 
-        for (int runIndex = 0; runIndex < runMax; runIndex++) {
+        for (int runIndex = run; runIndex < runMax; runIndex++) {
             //logger_.info("Start running... Run " + runIndex);
             File runFolder = new File(folderPath + "/" + runningAlgorithm + "/run_" + runIndex);
             //File runFolder = new File(folderPath+"\\LAResutls\\run_"+runIndex);	

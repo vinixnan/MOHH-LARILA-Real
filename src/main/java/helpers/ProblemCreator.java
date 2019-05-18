@@ -132,7 +132,7 @@ public class ProblemCreator {
             case "WFG":
                 return 9;
             case "Real":
-                return 6;
+                return 8;
             case "VC":
                 return 7;
             default:

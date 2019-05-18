@@ -6,6 +6,7 @@ import br.usp.poli.pcs.lti.jmetalhhhelper.core.interfaces.LLHInterface;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -269,7 +270,7 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
         //reference point for hypervolume calculation
         /*HyperVolumeMinimizationProblem hyp = new HyperVolumeMinimizationProblem();*/
  /*double[] truePFhypervolume = new double[problemCreator.getQtdProblem()];*/
-        for (int problemIndex = 0; problemIndex < problemCreator.getQtdProblem(); problemIndex++) {
+        for (int problemIndex = 6; problemIndex < problemCreator.getQtdProblem(); problemIndex++) {
 
             problemInstances[problemIndex] = problemCreator.getProblemInstance(problemIndex);
             numberOfVar[problemIndex] = problemInstances[problemIndex].getNumberOfVariables();
@@ -286,7 +287,7 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
         double[] realHypervolume = new double[problemInstances.length];
         HyperVolumeMinimizationProblem hyp = new HyperVolumeMinimizationProblem();
         GSpread GS = new GSpread();
-        for (int instanceIndex = 0; instanceIndex < problemInstances.length; instanceIndex++) {
+        for (int instanceIndex = 6; instanceIndex < problemInstances.length; instanceIndex++) {
             int fixedSolutionEvl = fixedGeneration * populationSize;
             System.out.println(problemInstances[instanceIndex].getName() + " is running...");
 
@@ -1106,7 +1107,7 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
         HyperVolumeMinimizationProblem hyp = new HyperVolumeMinimizationProblem();
         GSpread GS = new GSpread();
 
-        for (int instanceIndex = 0; instanceIndex < problemInstances.length; instanceIndex++) {
+        for (int instanceIndex = 6; instanceIndex < problemInstances.length; instanceIndex++) {
             System.out.println("Running " + problemInstances[instanceIndex].getName()); // for each instanceIndex
             numberOfObj = problemInstances[instanceIndex].getNumberOfObjectives();
             reference = new double[numberOfObj];
@@ -1606,6 +1607,14 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
                     if (remainEval < fixedSolutionEvl) {
                         feasableSolutionEval = remainEval;
                     }
+                    //Protection
+                    if(inputPop.size() % 2 != 0){
+                        SecureRandom rdn=new SecureRandom();
+                        inputPop.add(inputPop.get(rdn.nextInt(inputPop.size())));
+                        System.err.println("Protected at "+remainEval);
+                    }
+                    algorithm[instanceIndex].setPopulationSize(inputPop.size());
+                    //Protection
                     currentPop = algorithm[instanceIndex].execute(inputPop,/*fixedSolutionEvl*/ feasableSolutionEval); // TODO Auto-generated catch block
                     // TODO Auto-generated catch block
                     inputPop = currentPop;
