@@ -17,17 +17,7 @@ import java.util.Arrays;
 import java.util.List;
 import javax.management.JMException;
 import org.uma.jmetal.solution.Solution;
-import uk.ac.nottingham.asap.realproblems.AucMaximization;
-import uk.ac.nottingham.asap.realproblems.DiskBrakeDesign;
-import uk.ac.nottingham.asap.realproblems.FacilityPlacement;
-import uk.ac.nottingham.asap.realproblems.HeatExchanger;
-import uk.ac.nottingham.asap.realproblems.HydroDynamics;
-import uk.ac.nottingham.asap.realproblems.KernelRidgeRegressionParameterTuning;
-import uk.ac.nottingham.asap.realproblems.NeuralNetDoublePoleBalancing;
-import uk.ac.nottingham.asap.realproblems.OpticalFilter;
-import uk.ac.nottingham.asap.realproblems.VibratingPlatformDesign;
-import uk.ac.nottingham.asap.realproblems.WeldedBeamDesign;
-
+//import uk.ac.nottingham.asap.realproblems.*;
 /**
  * Example of experimental study based on solving the problems (configured with
  * 3 objectives) with the algorithms NSGAII, SPEA2, and SMPSO
@@ -75,9 +65,9 @@ public class RealStudy<S extends Solution<?>> {
         //problemList.add(new ExperimentProblem<>(new VibratingPlatformDesign()));
         //problemList.add(new ExperimentProblem<>(new HeatExchanger()));
         //problemList.add(new ExperimentProblem<>(new HydroDynamics()));
-        problemList.add(new ExperimentProblem<>(new AucMaximization()));
+        //problemList.add(new ExperimentProblem<>(new AucMaximization()));
         //problemList.add(new ExperimentProblem<>(new FacilityPlacement()));
-        problemList.add(new ExperimentProblem<>(new NeuralNetDoublePoleBalancing()));
+        //problemList.add(new ExperimentProblem<>(new NeuralNetDoublePoleBalancing()));
         //problemList.add(new ExperimentProblem<>(new KernelRidgeRegressionParameterTuning()));
         //problemList.add(new ExperimentProblem<>(new HydroDynamics()));
         

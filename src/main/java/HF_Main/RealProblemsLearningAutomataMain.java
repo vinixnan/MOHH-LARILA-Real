@@ -37,9 +37,9 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
         //Logger logger_ = Configuration.logger_;
         String[] algorithm = {"LAResutls", "DominanceInitalNew", "MetaH"};
         String problemClass = "Real";
-        //problemClass = "WFG";
+        problemClass = "WFG";
         //problemClass = "VC";
-        int qtdAlgs = 5;
+        int qtdAlgs = 3;
         //String configFile = "HF_Config_Benchmark/VCProblemSetting.txt";
         int runningAlgorithmIndex = 1;//0 is LA, 1 is RILA
         //runningAlgorithmIndex = 0;//0 is LA, 1 is RILA

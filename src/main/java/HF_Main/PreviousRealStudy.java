@@ -1,6 +1,7 @@
 package HF_Main;
 
-import br.usp.poli.pcs.lti.jmetalhhhelper.problems.*;
+import br.usp.poli.pcs.lti.jmetalproblems.problems.CarSideImpact;
+import br.usp.poli.pcs.lti.jmetalproblems.problems.Machining;
 import helpers.AlgorithmCreator;
 import org.uma.jmetal.algorithm.Algorithm;
 import org.uma.jmetal.problem.Problem;

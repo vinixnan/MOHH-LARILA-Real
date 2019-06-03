@@ -548,11 +548,6 @@ public class BechmarkDILAnew<S extends Solution<?>> extends LALearning {
 
                 if (reRankSum != acceptedQtdValue) {
                     System.out.println("Rerank sum " + reRankSum + " at " + runIndex + " problem " + (instanceIndex + 1));
-                    for (int j : scoreRank) {
-                        System.out.println("Rerank error: " + j + " ");
-                    }
-
-                    //System.exit(0);
                 }
             }//end rerank
 

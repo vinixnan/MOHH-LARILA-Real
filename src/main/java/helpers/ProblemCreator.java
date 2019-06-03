@@ -1,8 +1,6 @@
 package helpers;
 
-import br.usp.poli.pcs.lti.jmetalhhhelper.problems.CarSideImpact;
-import br.usp.poli.pcs.lti.jmetalhhhelper.problems.Machining;
-import br.usp.poli.pcs.lti.jmetalhhhelper.problems.WaterReal;
+import br.usp.poli.pcs.lti.jmetalproblems.problems.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -10,7 +8,7 @@ import org.uma.jmetal.problem.Problem;
 import org.uma.jmetal.problem.multiobjective.wfg.*;
 import org.uma.jmetal.solution.Solution;
 import realproblems.vehiclecrashworthiness.*;
-import uk.ac.nottingham.asap.realproblems.*;
+//import uk.ac.nottingham.asap.realproblems.*;
 
 /**
  *
@@ -91,6 +89,7 @@ public class ProblemCreator {
         }
     }
     
+    /*
     protected Problem getRealWorld(int problemIndex) {
         switch (problemIndex) {
             case 0:
@@ -113,13 +112,14 @@ public class ProblemCreator {
                 return null;
         }
     }
+*/
 
     public Problem getProblemInstance(int problemIndex) {
         switch (problemClass) {
             case "WFG":
                 return getWFG(problemIndex);
             case "Real":
-                return getRealWorld(problemIndex);
+                //return getRealWorld(problemIndex);
             case "VC":
                 return getVC(problemIndex);
             default:

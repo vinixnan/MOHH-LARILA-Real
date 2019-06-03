@@ -584,11 +584,7 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
                 }
 
                 if (reRankSum != acceptedQtdValue) {
-                    for (int j : scoreRank) {
-                        System.out.print("Rerank error: " + j + " " + " at " + runIndex + " problem " + (instanceIndex + 1));
-                    }
-
-                    //System.exit(0);
+                    System.out.println("Rerank sum " + reRankSum + " at " + runIndex + " problem " + (instanceIndex + 1));
                 }
             }//end rerank
 
@@ -1362,11 +1358,6 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
 
                 if (reRankSum != acceptedQtdValue) {
                     System.out.println("Rerank sum " + reRankSum + " at " + runIndex + " problem " + (instanceIndex + 1));
-                    for (int j : scoreRank) {
-                        System.out.println("Rerank error: " + j + " ");
-                    }
-
-                    //System.exit(0);
                 }
             }//end rerank
             String allScoreRank = folderPath + "/run_" + runIndex + "/" + problemCreator.getProblemClass() + (instanceIndex + 1) + "_AllScoreRank.txt";
