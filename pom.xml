@@ -72,10 +72,10 @@
             <version>5.7</version>
         </dependency>
         <dependency>
-	    <groupId>com.github.vinixnan</groupId>
-	    <artifactId>jMetalHyperHeuristicHelper</artifactId>
-	    <version>First</version>
-	</dependency>
+            <groupId>br.usp.poli.pcs.lti</groupId>
+            <artifactId>jMetalHyperHeuristicHelper-dev</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

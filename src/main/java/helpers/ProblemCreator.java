@@ -8,7 +8,7 @@ import org.uma.jmetal.problem.Problem;
 import org.uma.jmetal.problem.multiobjective.wfg.*;
 import org.uma.jmetal.solution.Solution;
 import realproblems.vehiclecrashworthiness.*;
-//import uk.ac.nottingham.asap.realproblems.*;
+import uk.ac.nottingham.asap.realproblems.*;
 
 /**
  *
@@ -89,7 +89,7 @@ public class ProblemCreator {
         }
     }
     
-    /*
+    
     protected Problem getRealWorld(int problemIndex) {
         switch (problemIndex) {
             case 0:
@@ -108,18 +108,22 @@ public class ProblemCreator {
                 return new AucMaximization();
             case 7:
                 return new NeuralNetDoublePoleBalancing();
+            case 8:
+                return new KernelRidgeRegressionParameterTuning();
+            case 9:
+                return new FacilityPlacement();
             default:
                 return null;
         }
     }
-*/
+
 
     public Problem getProblemInstance(int problemIndex) {
         switch (problemClass) {
             case "WFG":
                 return getWFG(problemIndex);
             case "Real":
-                //return getRealWorld(problemIndex);
+                return getRealWorld(problemIndex);
             case "VC":
                 return getVC(problemIndex);
             default:
@@ -132,7 +136,7 @@ public class ProblemCreator {
             case "WFG":
                 return 9;
             case "Real":
-                return 8;
+                return 10;
             case "VC":
                 return 7;
             default:

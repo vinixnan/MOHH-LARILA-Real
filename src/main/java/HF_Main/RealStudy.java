@@ -3,7 +3,6 @@ package HF_Main;
 import helpers.AlgorithmCreator;
 import org.uma.jmetal.algorithm.Algorithm;
 import org.uma.jmetal.problem.Problem;
-import org.uma.jmetal.qualityindicator.impl.hypervolume.PISAHypervolume;
 import org.uma.jmetal.solution.DoubleSolution;
 import org.uma.jmetal.util.experiment.Experiment;
 import org.uma.jmetal.util.experiment.ExperimentBuilder;
@@ -13,11 +12,11 @@ import org.uma.jmetal.util.experiment.util.ExperimentProblem;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import javax.management.JMException;
 import org.uma.jmetal.solution.Solution;
-//import uk.ac.nottingham.asap.realproblems.*;
+import uk.ac.nottingham.asap.realproblems.*;
+
 /**
  * Example of experimental study based on solving the problems (configured with
  * 3 objectives) with the algorithms NSGAII, SPEA2, and SMPSO
@@ -47,17 +46,14 @@ public class RealStudy<S extends Solution<?>> {
         String experimentBaseDirectory;
         if (args.length != 1) {
             experimentBaseDirectory = "output";
-        }
-        else{
+        } else {
             experimentBaseDirectory = args[0];
         }
-        
-        int core=4;
-        //core=6;
+
+        int core = 5;
         
         List<ExperimentProblem<DoubleSolution>> problemList = new ArrayList<>();
-        
-        
+
         //problemList.add(new ExperimentProblem<>(new WeldedBeamDesign()));
         //problemList.add(new ExperimentProblem<>(new DiskBrakeDesign()));
         //problems="VibratingPlatformDesign OpticalFilter WeldedBeamDesign DiskBrakeDesign HeatExchanger HydroDynamics"
@@ -65,12 +61,11 @@ public class RealStudy<S extends Solution<?>> {
         //problemList.add(new ExperimentProblem<>(new VibratingPlatformDesign()));
         //problemList.add(new ExperimentProblem<>(new HeatExchanger()));
         //problemList.add(new ExperimentProblem<>(new HydroDynamics()));
-        //problemList.add(new ExperimentProblem<>(new AucMaximization()));
+        problemList.add(new ExperimentProblem<>(new AucMaximization()));
         //problemList.add(new ExperimentProblem<>(new FacilityPlacement()));
-        //problemList.add(new ExperimentProblem<>(new NeuralNetDoublePoleBalancing()));
-        //problemList.add(new ExperimentProblem<>(new KernelRidgeRegressionParameterTuning()));
+        problemList.add(new ExperimentProblem<>(new NeuralNetDoublePoleBalancing()));
+        problemList.add(new ExperimentProblem<>(new KernelRidgeRegressionParameterTuning()));//pesado
         //problemList.add(new ExperimentProblem<>(new HydroDynamics()));
-        
 
         List<ExperimentAlgorithm<DoubleSolution, List<DoubleSolution>>> algorithmList
                 = configureAlgorithmList(problemList);
@@ -83,18 +78,17 @@ public class RealStudy<S extends Solution<?>> {
                         .setExperimentBaseDirectory(experimentBaseDirectory)
                         .setOutputParetoFrontFileName("FUN")
                         .setOutputParetoSetFileName("VAR")
-                        .setIndicatorList(Arrays.asList(
-                                new PISAHypervolume<DoubleSolution>()))
+                        //.setIndicatorList(Arrays.asList(new PISAHypervolume<DoubleSolution>()))
                         .setIndependentRuns(INDEPENDENT_RUNS)
                         .setNumberOfCores(core)
                         .build();
 
         new ExecuteAlgorithms<>(experiment).run();
-        new ComputeQualityIndicators<>(experiment).run();
-        new GenerateLatexTablesWithStatistics(experiment).run();
-        new GenerateWilcoxonTestTablesWithR<>(experiment).run();
-        new GenerateFriedmanTestTables<>(experiment).run();
-        new GenerateBoxplotsWithR<>(experiment).setRows(3).setColumns(3).setDisplayNotch().run();
+        //new ComputeQualityIndicators<>(experiment).run();
+        //new GenerateLatexTablesWithStatistics(experiment).run();
+        //new GenerateWilcoxonTestTablesWithR<>(experiment).run();
+        //new GenerateFriedmanTestTables<>(experiment).run();
+        //new GenerateBoxplotsWithR<>(experiment).setRows(3).setColumns(3).setDisplayNotch().run();
     }
 
     /**
@@ -109,20 +103,20 @@ public class RealStudy<S extends Solution<?>> {
         for (int run = 0; run < INDEPENDENT_RUNS; run++) {
             for (int i = 0; i < problemList.size(); i++) {
                 AlgorithmCreator ac = new AlgorithmCreator(problemList.get(i).getProblem());
-                ac.setMaxEvaluationsAndPopulation(1000 * 100, 100);
-                //edited algs
-                //SPEA 1 GDE3 3 IBEA 2 mIBEA 4
-                int j=1;
-                Algorithm algorithm = (Algorithm) ac.create(j);
-                algorithms.add(new ExperimentAlgorithm<>(algorithm, problemList.get(i), run));
-                /*
-                //jMetal Pure Algs
-                for (int j = 0; j < 4; j++) {
-                    Algorithm algorithm = ac.createJMetalAlg(j);
-                    System.out.println(algorithm.getName());
+                String problemName = problemList.get(i).getProblem().getName();
+                int numGenerations = 1000;
+                int populationSize = 100;
+                if (problemName.equals("AucMaximization") || problemName.equals("NeuralNetDoublePoleBalancing") || problemName.equals("KernelRidgeRegressionParameterTuning")) {
+                    numGenerations = 200;
+                } else if (problemName.equals("FacilityPlacement")) {
+                    populationSize = 24;
+                    numGenerations = 40;
+                }
+                ac.setMaxEvaluationsAndPopulation(numGenerations * populationSize, populationSize);
+                for (int j = 0; j < 5; j++) {
+                    Algorithm algorithm = (Algorithm) ac.create(j);
                     algorithms.add(new ExperimentAlgorithm<>(algorithm, problemList.get(i), run));
                 }
-*/
             }
         }
         return algorithms;
