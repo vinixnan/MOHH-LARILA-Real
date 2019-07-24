@@ -30,6 +30,7 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
     public static void main(String[] args) throws ClassNotFoundException, IOException, JMException, ConfigurationException {
         // TODO Auto-generated method stub
         int runMax = 40;
+        runMax=1;
         int problemIndex = 0, algId = 0;
         //for (int problemIndex = 2; problemIndex > 0; problemIndex--) {
         int fixedGeneration = 20;
@@ -38,8 +39,8 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
         String[] algorithm = {"LAResutls", "DominanceInitalNew", "MetaH"};
         String problemClass = "Real";
         problemClass = "WFG";
-        //problemClass = "VC";
-        int qtdAlgs = 3;
+        problemClass = "VC";
+        int qtdAlgs = 5;
         //String configFile = "HF_Config_Benchmark/VCProblemSetting.txt";
         int runningAlgorithmIndex = 1;//0 is LA, 1 is RILA
         //runningAlgorithmIndex = 0;//0 is LA, 1 is RILA

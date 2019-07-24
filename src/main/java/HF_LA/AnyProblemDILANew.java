@@ -3,10 +3,13 @@ package HF_LA;
 import helpers.AlgorithmCreator;
 import helpers.ProblemCreator;
 import br.usp.poli.pcs.lti.jmetalhhhelper.core.interfaces.LLHInterface;
+import br.usp.poli.pcs.lti.jmetalhhhelper.main.WFGHypervolumeCalculatorPure;
+import br.usp.poli.pcs.lti.jmetalhhhelper.main.calculateHypervolumeForENGNotts;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.security.SecureRandom;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -32,6 +35,9 @@ import org.uma.jmetal.util.distance.Distance;
 import org.uma.jmetal.util.distance.impl.EuclideanDistanceBetweenSolutionAndASolutionListInObjectiveSpace;
 import org.uma.jmetal.util.fileoutput.SolutionListOutput;
 import org.uma.jmetal.util.fileoutput.impl.DefaultFileOutputContext;
+import org.uma.jmetal.util.front.Front;
+import org.uma.jmetal.util.front.imp.ArrayFront;
+import org.uma.jmetal.util.front.util.FrontUtils;
 import org.uma.jmetal.util.solutionattribute.Ranking;
 import org.uma.jmetal.util.solutionattribute.impl.DominanceRanking;
 //import uk.ac.nottingham.asap.realproblems.ExternalProblem;
@@ -270,8 +276,7 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
         //reference point for hypervolume calculation
         /*HyperVolumeMinimizationProblem hyp = new HyperVolumeMinimizationProblem();*/
  /*double[] truePFhypervolume = new double[problemCreator.getQtdProblem()];*/
-        for (int problemIndex = 6; problemIndex < problemCreator.getQtdProblem(); problemIndex++) {
-
+        for (int problemIndex = 0; problemIndex < problemCreator.getQtdProblem(); problemIndex++) {
             problemInstances[problemIndex] = problemCreator.getProblemInstance(problemIndex);
             numberOfVar[problemIndex] = problemInstances[problemIndex].getNumberOfVariables();
             mutationProb[problemIndex] = (Double) 1.0 / numberOfVar[problemIndex];
@@ -1103,7 +1108,7 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
         HyperVolumeMinimizationProblem hyp = new HyperVolumeMinimizationProblem();
         GSpread GS = new GSpread();
 
-        for (int instanceIndex = 6; instanceIndex < problemInstances.length; instanceIndex++) {
+        for (int instanceIndex = 10; instanceIndex < problemCreator.getQtdProblem(); instanceIndex++) {
             System.out.println("Running " + problemInstances[instanceIndex].getName()); // for each instanceIndex
             numberOfObj = problemInstances[instanceIndex].getNumberOfObjectives();
             reference = new double[numberOfObj];
@@ -1837,6 +1842,20 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
                 System.out.println(((ExternalProblem) problemInstances[instanceIndex]).getQtdEvaluated());
             }
             */
+            //EVALUATE
+            String pfKnown="../jMetalHyperHeuristicHelper-dev/pfKnownCarSideImpact_350_50_100.removedDominated.file";
+            System.out.println(problemInstances[instanceIndex].getName());
+            //
+            /*
+            Front pfFront = new ArrayFront(pfKnown);
+            double[] nadir = FrontUtils.getMaximumValues(pfFront);
+            Front resp=new ArrayFront(obtainedSolutionSet);
+            resp = calculateHypervolumeForENGNotts.removeWorseThanNadir(resp, nadir, nadir.length);
+            WFGHypervolumeCalculatorPure wp=new WFGHypervolumeCalculatorPure();
+            double Hyp = calculateHypervolumeForENGNotts.calc(wp, resp, nadir);
+            DecimalFormat nf = new DecimalFormat("###.####################");
+            System.out.println(nf.format(Hyp));
+            */
         }
 
         /*		String hypervolumePath = folderPath + "/DominanceInital/run_"+ runIndex + "/hypervolume.txt";
@@ -1844,7 +1863,7 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
         return null;
 
     }
-
+    
     // intialise the maximum and minimum values for each objective
     public void initialiseExtremeValues(List<S> solutions) {
         jmetal.qualityIndicator.util.MetricsUtil util_ = new jmetal.qualityIndicator.util.MetricsUtil();

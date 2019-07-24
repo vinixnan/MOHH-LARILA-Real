@@ -1,10 +1,16 @@
 package helpers;
 
 import br.usp.poli.pcs.lti.jmetalproblems.problems.*;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.uma.jmetal.problem.Problem;
+import org.uma.jmetal.problem.multiobjective.FourBarTruss;
+import org.uma.jmetal.problem.multiobjective.Golinski;
+import org.uma.jmetal.problem.multiobjective.ebes.Ebes;
 import org.uma.jmetal.problem.multiobjective.wfg.*;
 import org.uma.jmetal.solution.Solution;
 import realproblems.vehiclecrashworthiness.*;
@@ -64,6 +70,7 @@ public class ProblemCreator {
     protected Problem getVC(int problemIndex) {
         int m = params.get("m");
         int l = params.get("l");
+        String[] objectiveList={"W","D", "SSAE", "ENS", "MDV"};
         try {
             switch (problemIndex) {
                 case 0:
@@ -80,13 +87,31 @@ public class ProblemCreator {
                     return new CarSideImpact();
                 case 6:
                     return new Machining();
+                case 7:
+                    return new FourBarTruss();
+                case 8:
+                    //http://www.eng.buffalo.edu/Research/MODEL/mdo.test.orig/class2prob4/descr.html
+                    return new Golinski();
+                case 11:
+                    String ebesFileName="Mobile_Bridge_25N_35B_8G_16OrdZXY.ebe";
+                    return new Ebes(ebesFileName, objectiveList);
+                case 12:
+                    String ebs="Displaced_Column_for_Vehicle_Ramp_Acero.ebe";
+                    return new Ebes(ebs, objectiveList);
+                case 9:
+                    return new Quagliarella();
+                case 10:
+                    return new Poloni();
                 default:
                     return null;
             }
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
             return null;
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(ProblemCreator.class.getName()).log(Level.SEVERE, null, ex);
         }
+        return null;
     }
     
     
@@ -138,7 +163,7 @@ public class ProblemCreator {
             case "Real":
                 return 10;
             case "VC":
-                return 7;
+                return 12;
             default:
                 return -1;
         }

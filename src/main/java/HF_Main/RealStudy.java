@@ -1,5 +1,7 @@
 package HF_Main;
 
+import br.usp.poli.pcs.lti.jmetalproblems.problems.Poloni;
+import br.usp.poli.pcs.lti.jmetalproblems.problems.Quagliarella;
 import helpers.AlgorithmCreator;
 import org.uma.jmetal.algorithm.Algorithm;
 import org.uma.jmetal.problem.Problem;
@@ -14,6 +16,9 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import javax.management.JMException;
+import org.uma.jmetal.problem.multiobjective.FourBarTruss;
+import org.uma.jmetal.problem.multiobjective.Golinski;
+import org.uma.jmetal.problem.multiobjective.ebes.Ebes;
 import org.uma.jmetal.solution.Solution;
 import uk.ac.nottingham.asap.realproblems.*;
 
@@ -61,10 +66,18 @@ public class RealStudy<S extends Solution<?>> {
         //problemList.add(new ExperimentProblem<>(new VibratingPlatformDesign()));
         //problemList.add(new ExperimentProblem<>(new HeatExchanger()));
         //problemList.add(new ExperimentProblem<>(new HydroDynamics()));
-        problemList.add(new ExperimentProblem<>(new AucMaximization()));
-        //problemList.add(new ExperimentProblem<>(new FacilityPlacement()));
-        problemList.add(new ExperimentProblem<>(new NeuralNetDoublePoleBalancing()));
-        problemList.add(new ExperimentProblem<>(new KernelRidgeRegressionParameterTuning()));//pesado
+        //problemList.add(new ExperimentProblem<>(new AucMaximization()));
+        problemList.add(new ExperimentProblem<>(new FacilityPlacement()));
+        problemList.add(new ExperimentProblem<>(new FourBarTruss()));
+        problemList.add(new ExperimentProblem<>(new Golinski()));
+        problemList.add(new ExperimentProblem(new Quagliarella()));
+        problemList.add(new ExperimentProblem(new Poloni()));
+        String ebesFileName="Mobile_Bridge_25N_35B_8G_16OrdZXY.ebe";
+        String[] objectiveList={"W","D", "SSAE", "ENS", "MDV"};
+        
+        problemList.add(new ExperimentProblem(new Ebes(ebesFileName, objectiveList)));
+        //problemList.add(new ExperimentProblem<>(new NeuralNetDoublePoleBalancing()));
+        //problemList.add(new ExperimentProblem<>(new KernelRidgeRegressionParameterTuning()));//pesado
         //problemList.add(new ExperimentProblem<>(new HydroDynamics()));
 
         List<ExperimentAlgorithm<DoubleSolution, List<DoubleSolution>>> algorithmList
@@ -109,8 +122,8 @@ public class RealStudy<S extends Solution<?>> {
                 if (problemName.equals("AucMaximization") || problemName.equals("NeuralNetDoublePoleBalancing") || problemName.equals("KernelRidgeRegressionParameterTuning")) {
                     numGenerations = 200;
                 } else if (problemName.equals("FacilityPlacement")) {
-                    populationSize = 24;
-                    numGenerations = 40;
+                    populationSize = 30;
+                    numGenerations = 50;
                 }
                 ac.setMaxEvaluationsAndPopulation(numGenerations * populationSize, populationSize);
                 for (int j = 0; j < 5; j++) {
