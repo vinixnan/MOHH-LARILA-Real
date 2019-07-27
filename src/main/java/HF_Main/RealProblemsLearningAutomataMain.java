@@ -30,7 +30,6 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
     public static void main(String[] args) throws ClassNotFoundException, IOException, JMException, ConfigurationException {
         // TODO Auto-generated method stub
         int runMax = 40;
-        runMax=1;
         int problemIndex = 0, algId = 0;
         //for (int problemIndex = 2; problemIndex > 0; problemIndex--) {
         int fixedGeneration = 20;

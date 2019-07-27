@@ -25,19 +25,19 @@ function runIt {
 
 rm -f "runMain.txt"
 kinds="0 1"
-sizes="10 20"
-problemClass="WFG"
-problemClass="Real"
+problemClasses="VC Real"
 qtdAlgs=5
-kinds="1"
-sizes="20"
+sizes="10"
 
-for size in $sizes 
+for problemClass in $problemClasses
 do
-	for kind in $kinds 
+	for size in $sizes 
 	do
-		runIt $kind $size $problemClass $qtdAlgs
-	done	
+		for kind in $kinds 
+		do
+			runIt $kind $size $problemClass $qtdAlgs
+		done	
+	done
 done
 
 cat "runMain.txt" | xargs -I CMD -P 6  bash -c CMD &
