@@ -2,7 +2,7 @@
 
 
 function runIt {
-	qtdRun=40
+	qtdExp=40
 	seed=-1
 	kind=$1
 	fixedGen=$2
@@ -40,5 +40,5 @@ do
 	done
 done
 
-cat "runMain.txt" | xargs -I CMD -P 6  bash -c CMD &
+cat "runMain.txt" | xargs -I CMD -P 5  bash -c CMD &
 wait
