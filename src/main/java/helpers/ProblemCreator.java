@@ -163,7 +163,7 @@ public class ProblemCreator {
             case "Real":
                 return 6;
             case "VC":
-                return 12;
+                return 11;
             default:
                 return -1;
         }
