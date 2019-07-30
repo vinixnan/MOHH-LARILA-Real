@@ -13,8 +13,8 @@ function runIt {
 	
 	while [ $number -le $qtdExp ]
 	do
-			output="out_"$kind"_"$fixedGen"_"$problemClass"_"$qtdAlgs"_ext4_"$number
-			erroutput="err_"$kind"_"$fixedGen"_"$problemClass"_"$qtdAlgs"_ext4_"$number
+			output="out_"$kind"_"$fixedGen"_"$problemClass"_"$qtdAlgs"_ext5_"$number
+			erroutput="err_"$kind"_"$fixedGen"_"$problemClass"_"$qtdAlgs"_ext5_"$number
 			echo "java -Xms1024m -Xmx1024m -cp target/MOHH-LARILA-1.0-SNAPSHOT.jar:target/lib/* HF_Main.RealProblemsLearningAutomataMain 0 $fixedGen $seed $kind $problemClass $qtdAlgs $number > $output 2> $erroutput" >> "runMain.txt"
 			#echo "java -Xms1024m -Xmx1024m -cp 'target/MOHH-LARILA-1.0-SNAPSHOT.jar;target/lib/*' HF_Main.RealProblemsLearningAutomataMain 0 $fixedGen $seed $kind $problemClass $qtdAlgs $number > $output 2> $erroutput" >> "runMain.txt"
 			let number=$number+1;
@@ -26,7 +26,7 @@ function runIt {
 
 rm -f "runMain.txt"
 kinds="0 1"
-problemClasses="VC Real"
+problemClasses="Real"
 qtdAlgs=5
 sizes="10"
 

@@ -727,7 +727,7 @@ public class AnyProblemOnlineLearning<S extends Solution<?>> extends LALearning 
         double[] realHypervolume = new double[problemInstances.length];
         HyperVolumeMinimizationProblem hyp = new HyperVolumeMinimizationProblem();
 
-        for (int instanceIndex = 0; instanceIndex < problemInstances.length; instanceIndex++) {
+        for (int instanceIndex = 6; instanceIndex < problemInstances.length; instanceIndex++) {
             System.out.println(problemInstances[instanceIndex].getName() + " is running...");
 
             numberOfObj = problemInstances[instanceIndex].getNumberOfObjectives();
