@@ -3,6 +3,7 @@ package HF_LA;
 import br.usp.poli.pcs.lti.jmetalhhhelper.core.interfaces.LLHInterface;
 import java.io.IOException;
 import java.io.Serializable;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -11,6 +12,9 @@ import org.uma.jmetal.operator.Operator;
 import org.uma.jmetal.problem.Problem;
 
 import org.uma.jmetal.solution.Solution;
+import org.uma.jmetal.util.front.Front;
+import org.uma.jmetal.util.front.imp.ArrayFront;
+import org.uma.jmetal.util.front.util.FrontUtils;
 
 public abstract class LALearning<S extends Solution<?>> implements Serializable {
 
@@ -29,7 +33,7 @@ public abstract class LALearning<S extends Solution<?>> implements Serializable 
      * process, such as NSGA-II, SPEA2, IBEA, mIBEA etc. etc.
      */
     protected Map<String, LLHInterface> lowlevelMOEAs_ = null;
-
+    
     protected String[] lowlevelMOEAsStr_ = null;
     /**
      * Stores algorithm specific parameters. For example, in NSGA-II these
@@ -43,17 +47,21 @@ public abstract class LALearning<S extends Solution<?>> implements Serializable 
      * information from an algorithm.
      */
     protected Map<String, Object> outPutParameters_ = null;
-
+    
     protected String name_;
-
+    
+    protected double[] reference;
+    
     public LALearning() {
         super();
+        reference = null;
     }
-
+    
     public LALearning(Problem problem) {
         problem_ = problem;
+        reference = null;
     }
-
+    
     public void addAlgorithm(String name, LLHInterface algorithm) {
         if (lowlevelMOEAs_ == null) {
             lowlevelMOEAs_ = new HashMap<String, LLHInterface>();
@@ -110,7 +118,7 @@ public abstract class LALearning<S extends Solution<?>> implements Serializable 
             lowlevelMOEAsStr_[i] = moeas[i];
         }
     }
-
+    
     public String[] getlowlevelMOEAsStr_() {
         return lowlevelMOEAsStr_;
     }
@@ -130,7 +138,7 @@ public abstract class LALearning<S extends Solution<?>> implements Serializable 
     public Object[] getInputParameterArray(String name) {
         return (Object[]) inputParameters_.get(name);
     }
-
+    
     public LLHInterface getLowLevelMOEA(String name) {
         return lowlevelMOEAs_.get(name);
     }
@@ -175,18 +183,18 @@ public abstract class LALearning<S extends Solution<?>> implements Serializable 
     public Problem getProblem() {
         return problem_;
     }
-
+    
     public void setName(String name) {
         name_ = name;
     }
-
+    
     public String getName() {
         return name_;
     }
-
+    
     public abstract List<S> runLA() throws IOException, ClassNotFoundException, JMException;//implement your learning body here! Oooh, actually I am talking to myself, nobody  would use this framework except me.
 
-    public List<S> runLA(int problemIndex) throws IOException, ClassNotFoundException, JMException{
+    public List<S> runLA(int problemIndex) throws IOException, ClassNotFoundException, JMException {
         return null;
     }
     
@@ -195,10 +203,25 @@ public abstract class LALearning<S extends Solution<?>> implements Serializable 
         // TODO Auto-generated method stub
         return null;
     }
-
+    
     public void initialise() {
         // TODO Auto-generated method stub
 
     }
-
+    
+    public void updateReference(double[] max) {
+        if (reference == null) {
+            reference = new double[max.length];
+            Arrays.fill(reference, 1.0);
+        }
+        for (int i = 0; i < max.length; i++) {
+            reference[i] = Math.max(max[i], reference[i]);
+        }
+    }
+    
+    public void updateReference(List<S> list) {
+        Front front = new ArrayFront(list);
+        double[] tempMaximum = FrontUtils.getMaximumValues(front);
+        updateReference(tempMaximum);
+    }
 }

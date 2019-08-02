@@ -10,6 +10,7 @@ import HF_LA.BechmarkDILAnew;
 import HF_LA.BenchmarkOnlineLearning;
 import HF_LA.LALearning;
 import HF_RandomGenerator.RandomGenerator;
+import HF_choicefunction.AnyProblemChoiceFunction;
 import helpers.AlgorithmCreator;
 import helpers.ProblemCreator;
 import br.usp.poli.pcs.lti.jmetalhhhelper.core.interfaces.LLHInterface;
@@ -29,21 +30,23 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
 
     public static void main(String[] args) throws ClassNotFoundException, IOException, JMException, ConfigurationException {
         // TODO Auto-generated method stub
-        int runMax = 40;
+        int runMax = 1;
         int problemIndex = 0, algId = 0;
         //for (int problemIndex = 2; problemIndex > 0; problemIndex--) {
         int fixedGeneration = 20;
+        int popSize = 100;
         long seed = System.currentTimeMillis();
+        boolean small = true;
         //Logger logger_ = Configuration.logger_;
-        String[] algorithm = {"LAResutls", "DominanceInitalNew", "MetaH"};
+        String[] algorithm = {"LAResutls", "DominanceInitalNew", "CF", "MetaH"};
         String problemClass = "Real";
         problemClass = "WFG";
-        problemClass = "VC";
+        problemClass = "Real";
         int qtdAlgs = 5;
         //String configFile = "HF_Config_Benchmark/VCProblemSetting.txt";
         int runningAlgorithmIndex = 1;//0 is LA, 1 is RILA
         //runningAlgorithmIndex = 0;//0 is LA, 1 is RILA
-        int run=0;
+        int run = 0;
         if (args.length == 7) {
             //$qtdRun $fixedGen $seed $kind $problemClass $qtdAlgs
             runMax = Integer.parseInt(args[0]);
@@ -56,14 +59,18 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
             problemClass = args[4];
             qtdAlgs = Integer.parseInt(args[5]);
             run = Integer.parseInt(args[6]);
-            runMax=run+1;
+            runMax = run + 1;
         } else if (args.length == 3) {
             algId = Integer.parseInt(args[0]);
             problemIndex = Integer.parseInt(args[1]);
             problemClass = args[2];
             System.out.println("Run IT Pal");
         }
-        System.out.println(problemClass + " qtdAlgs=" + qtdAlgs + " fixedGeneration=" + fixedGeneration + " with runningAlgorithmIndex=" + runningAlgorithmIndex + " run for " + runMax+" from "+run);
+        String smallerConf = "";
+        if (small) {
+            smallerConf = "_small_";
+        }
+        System.out.println(problemClass + " qtdAlgs=" + qtdAlgs + " fixedGeneration=" + fixedGeneration + " with runningAlgorithmIndex=" + runningAlgorithmIndex + " run for " + runMax + " from " + run + " " + smallerConf);
         int l = 20;
         int m = 3;
         int k = 2 * (m - 1);
@@ -78,11 +85,11 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
         String runningAlgorithm = algorithm[runningAlgorithmIndex];
         String confileFileName = null;
         if (runningAlgorithm.equals("LAResutls")) {
-            confileFileName = "HHLA_" + problemCreator.getProblemClass() + "ProblemSetting.txt";
+            confileFileName = "HHLA_" + problemCreator.getProblemClass() + "ProblemSetting" + smallerConf + ".txt";
         } else if (runningAlgorithm.equals("DominanceInitalNew")) {
-            confileFileName = "HHLA_" + problemCreator.getProblemClass() + "ProblemSetting.txt";
+            confileFileName = "HHLA_" + problemCreator.getProblemClass() + "ProblemSetting" + smallerConf + ".txt";
         } else {
-            confileFileName = "HHLA_" + problemCreator.getProblemClass() + "ProblemSetting.txt";
+            confileFileName = "HHLA_" + problemCreator.getProblemClass() + "ProblemSetting" + smallerConf + ".txt";
         }
         String configFile = "HF_Config_Benchmark/" + confileFileName;
         /*	    try {
@@ -111,9 +118,8 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
 
             String outputPath = folderPath + "/" + runningAlgorithm;
             switch (runningAlgorithmIndex) {
-                case 0:
-                    {
-                        /*		    	parameterSet.put("LearningPhase", Double.toString(0.5));
+                case 0: {
+                    /*		    	parameterSet.put("LearningPhase", Double.toString(0.5));
                         //System.out.print(parameterSet.get("LearningPhase") + " ");
                         parameterSet.put("Multiplier", Double.toString(2.5));
                         //System.out.print(parameterSet.get("Multiplier") + " ");
@@ -123,19 +129,19 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
                         
                         VCOnlineLearning benchmarkLAlearning = new VCOnlineLearning(configFile, parameterSet, runIndex,  outputPath);
                         benchmarkLAlearning.runLA(parameterSet);*/
-                        LALearning benchmarkLAlearning;
-                        if (problemClass.equalsIgnoreCase("WFG")) {
-                            System.out.println("Running Over WFG");
-                            benchmarkLAlearning = new BenchmarkOnlineLearning(configFile, runIndex, fixedGeneration, problemCreator, qtdAlgs);
-                        } else {
-                            benchmarkLAlearning = new AnyProblemOnlineLearning(configFile, runIndex, fixedGeneration, problemCreator, qtdAlgs);
-                        }       benchmarkLAlearning.runLA();
-                        break;
+                    LALearning benchmarkLAlearning;
+                    if (problemClass.equalsIgnoreCase("WFG")) {
+                        System.out.println("Running Over WFG");
+                        benchmarkLAlearning = new BenchmarkOnlineLearning(configFile, runIndex, fixedGeneration, problemCreator, qtdAlgs);
+                    } else {
+                        benchmarkLAlearning = new AnyProblemOnlineLearning(configFile, runIndex, fixedGeneration, problemCreator, qtdAlgs);
                     }
-            //}
-                case 1:
-                    {
-                        /*parameterSet.put("LearningPhase", Double.toString(0.9));
+                    benchmarkLAlearning.runLA();
+                    break;
+                }
+                //}
+                case 1: {
+                    /*parameterSet.put("LearningPhase", Double.toString(0.9));
                         //System.out.print(parameterSet.get("LearningPhase") + " ");
                         parameterSet.put("Multiplier", Double.toString(2.5));
                         //System.out.print(parameterSet.get("Multiplier") + " ");
@@ -148,15 +154,20 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
                         parameterSet.put("SamplingFrequency", Integer.toString(2));
                         VCDILANew benchmarkLAlearning = new VCDILANew(configFile, parameterSet, runIndex,  outputPath);
                         benchmarkLAlearning.runLA(parameterSet);*/
-                        LALearning benchmarkLAlearning;
-                        if (problemClass.equalsIgnoreCase("WFG")) {
-                            benchmarkLAlearning = new BechmarkDILAnew(configFile, runIndex, fixedGeneration, problemCreator, qtdAlgs);
-                        } else {
-                            benchmarkLAlearning = new AnyProblemDILANew(configFile, runIndex, fixedGeneration, problemCreator, qtdAlgs);
-                        }       benchmarkLAlearning.runLA();
-                        break;
+                    LALearning benchmarkLAlearning;
+                    if (problemClass.equalsIgnoreCase("WFG")) {
+                        benchmarkLAlearning = new BechmarkDILAnew(configFile, runIndex, fixedGeneration, problemCreator, qtdAlgs);
+                    } else {
+                        benchmarkLAlearning = new AnyProblemDILANew(configFile, runIndex, fixedGeneration, problemCreator, qtdAlgs);
                     }
+                    benchmarkLAlearning.runLA();
+                    break;
+                }
                 case 2:
+                    AnyProblemChoiceFunction cf = new AnyProblemChoiceFunction(problemCreator, popSize);
+                    cf.run(runIndex);
+                    break;
+                case 3:
                     //for (problemIndex = 0; problemIndex < problemCreator.getQtdProblem(); problemIndex++) {
                     RealProblemsLearningAutomataMain rx = new RealProblemsLearningAutomataMain();
                     rx.runAlg(configFile, runIndex, fixedGeneration, problemIndex, algId, problemCreator);
