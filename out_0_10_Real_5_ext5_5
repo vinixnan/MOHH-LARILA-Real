@@ -1,0 +1,13 @@
+Real qtdAlgs=5 fixedGeneration=10 with runningAlgorithmIndex=0 run for 6 from 5
+[NSGAII, SPEA2, IBEA, mIBEA, GDE3]
+AucMaximization is running...
+Set iterations=50 popSize=30
+Create 2 at 1500
+Create 4 at 1200
+Create 0 at 900
+Create 3 at 600
+Create 4 at 300
+Remain solution evl is 0. Iteration is 5
+NeuralNetDoublePoleBalancing is running...
+Set iterations=50 popSize=30
+Create 4 at 1500

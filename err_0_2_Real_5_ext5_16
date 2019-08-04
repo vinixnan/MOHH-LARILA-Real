@@ -1,0 +1,8 @@
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at org.uma.jmetal.util.solutionattribute.impl.StrengthRawFitness.computeDensityEstimator(StrengthRawFitness.java:58)
+	at br.usp.poli.pcs.lti.jmetalhhhelper.flexiblealgs.Spea2.selection(Spea2.java:68)
+	at br.usp.poli.pcs.lti.jmetalhhhelper.flexiblealgs.Spea2.generateNewPopulation(Spea2.java:123)
+	at br.usp.poli.pcs.lti.jmetalhhhelper.flexiblealgs.Spea2.execute(Spea2.java:132)
+	at br.usp.poli.pcs.lti.jmetalhhhelper.flexiblealgs.Spea2.execute(Spea2.java:246)
+	at HF_LA.AnyProblemOnlineLearning.runLA(AnyProblemOnlineLearning.java:943)
+	at HF_Main.RealProblemsLearningAutomataMain.main(RealProblemsLearningAutomataMain.java:139)

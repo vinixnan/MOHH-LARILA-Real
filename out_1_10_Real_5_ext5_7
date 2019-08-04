@@ -1,0 +1,49 @@
+Real qtdAlgs=5 fixedGeneration=10 with runningAlgorithmIndex=1 run for 8 from 7
+[NSGAII, SPEA2, IBEA, mIBEA, GDE3]
+Running AucMaximization
+Set iterations=50 popSize=30
+Create 0 at 1500
+Create 1 at 1200
+Create 2 at 900
+Create 3 at 600
+Create 4 at 300
+Create 0 at 0
+Create 1 at -300
+Create 2 at -600
+Create 3 at -900
+Create 4 at -1200
+Create 0 at -1500
+Create 1 at -1800
+Create 2 at -2100
+Create 3 at -2400
+Create 4 at -2700
+Create 0 at -3000
+Create 1 at -3300
+Create 2 at -3600
+Create 3 at -3900
+Create 4 at -4200
+Create 0 at -4500
+Create 1 at -4800
+Create 2 at -5100
+Create 3 at -5400
+Create 4 at -5700
+Set iterations=50 popSize=30
+Create 4 at -6000
+AucMaximization
+Running NeuralNetDoublePoleBalancing
+Set iterations=50 popSize=30
+Create 0 at 1500
+Create 1 at 1200
+Create 2 at 900
+Create 3 at 600
+Create 4 at 300
+Create 0 at 0
+Create 1 at -300
+Create 2 at -600
+Create 3 at -900
+Create 4 at -1200
+Create 0 at -1500
+Create 1 at -1800
+Create 2 at -2100
+Create 3 at -2400
+Create 4 at -2700
