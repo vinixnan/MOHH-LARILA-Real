@@ -45,9 +45,8 @@ public class AnyProblemChoiceFunction<S extends Solution<?>> {
         this.populationSize = populationSize;
     }
 
-    public void run(int runIndex) throws ClassNotFoundException, IOException, JMException {
+    public void run(int runIndex, String fullPath) throws ClassNotFoundException, IOException, JMException {
         // TODO Auto-generated method stub
-
         long seed = (long) 100;//can be randomly seeded.
         RandomGenerator RG = new RandomGenerator(seed);
 
@@ -56,7 +55,6 @@ public class AnyProblemChoiceFunction<S extends Solution<?>> {
 
         String configFile = "HF_Config_Benchmark/RealProblemSetting.txt";
         String algorithms[] = {"NSGAII", "SPEA2", "IBEA", "mIBEA", "GDE3"};
-        String folderPath = "HF_Config_Benchmark/Results/Real/AM/ChoiceFunctionAM";
 
         try {
             config.load(new FileInputStream(configFile));
@@ -74,6 +72,8 @@ public class AnyProblemChoiceFunction<S extends Solution<?>> {
 
         //int populationSize = popSize;
         int fixedSolutionEvl = (int) (totalEval / decisionPoints);
+        
+        System.out.println("CF; decision="+decisionPoints+";fixed="+fixedSolutionEvl+";total="+totalEval);
 
         MetricsUtil util = new MetricsUtil();
 
@@ -106,48 +106,19 @@ public class AnyProblemChoiceFunction<S extends Solution<?>> {
         LLHInterface[] algorithm = new LLHInterface[problemCreator.getQtdProblem()];
 
         System.out.println("Run " + runIndex + "....");
-        File runFolder = new File(folderPath + "\\run_" + runIndex);
-        //File runFolder = new File(folderPath+"\\LAResutls\\run_"+runIndex);	
-        if (!runFolder.exists()) {
-            if (runFolder.mkdirs()) {
-                //System.out.println("Directory is created!");
-            } else {
-                System.out.println("Failed to create directory!");
-                System.exit(0);
-            }
-        }
 
         choiceFunction CF = new choiceFunction();
 
         for (int instanceIndex = 0; instanceIndex < problemInstances.length; instanceIndex++) {
-            if (instanceIndex == 0) {
-                numberOfObj = 3;
-            } else {
-                numberOfObj = 2;
-            }
-
+            numberOfObj=problemInstances[instanceIndex].getNumberOfObjectives();
             reference = new double[numberOfObj];
+            Arrays.fill(reference,1.0);
             minimumValues = new double[numberOfObj];
             maximumValues = new double[numberOfObj];
 
             for (int i = 0; i < numberOfObj; i++) {
                 reference[i] = 1.0;
             }
-            /*				double[] realReference = new double[numberOfObj];
-				if(instanceIndex ==0){
-					realReference[0] = 1711.0;
-					realReference[1] = 13.0;
-					realReference[2] = 0.37;
-				}else if(instanceIndex ==1){
-					realReference[0] = 1711.0;
-					realReference[1] = 13.0;
-				}else if(instanceIndex ==2){
-					realReference[0] = 1711.0;
-					realReference[1] = 0.37;
-				}else if(instanceIndex ==3){
-					realReference[0] = 13.0;
-					realReference[1] = 0.37;
-				}*/
 
             int remainEval = totalEval;
             List<S> inputPop = null;
@@ -173,8 +144,7 @@ public class AnyProblemChoiceFunction<S extends Solution<?>> {
 
             //initialise population for each instance which is used for each algorithm
             List<S> initialPopulation = ProblemCreator.generateInitialPopulation(problemInstances[instanceIndex], popSize);
-            updateReference(initialPopulation);
-
+            
             List[] resultSolutions = new List[algorithms.length];
             List[] inputSolutions = new List[algorithms.length];
 
@@ -194,7 +164,7 @@ public class AnyProblemChoiceFunction<S extends Solution<?>> {
                 heuristicList.add(algorithmIndex);
                 lastInvokeTime[algorithmIndex] = System.currentTimeMillis();
 
-                ac.create(algorithmIndex, remainEval);
+                eachAlgorithm=ac.create(algorithmIndex, remainEval);
 
                 long startTime = System.currentTimeMillis();
 
@@ -254,7 +224,7 @@ public class AnyProblemChoiceFunction<S extends Solution<?>> {
             inputPop = resultSolutions[chosenHeuristic];
 
             while (remainEval > 0) {
-                ac.create(chosenHeuristic, remainEval);
+                algorithm[instanceIndex]=ac.create(chosenHeuristic, remainEval);
 
                 long beginTime = System.currentTimeMillis();
                 //execute the chosen algorithm
@@ -264,8 +234,7 @@ public class AnyProblemChoiceFunction<S extends Solution<?>> {
                 }
                 resultSolutions[chosenHeuristic] = algorithm[instanceIndex].execute(inputPop, fixedSolutionEvl);
                 inputPop = resultSolutions[chosenHeuristic];
-                updateReference(inputPop);
-
+                
                 remainEval -= fixedSolutionEvl;
 
                 // update executionTimeArray
@@ -292,12 +261,13 @@ public class AnyProblemChoiceFunction<S extends Solution<?>> {
 
                 //heuristicList.add(chosenHeuristic);		
             }//end while(remainEvl >0)
-            String arrayListPath = folderPath + "/run_" + runIndex + "/VC" + (instanceIndex + 1) + "_ChosenHeuristic.txt";
+            
+            String arrayListPath = fullPath+"/"+problemCreator.getProblemClass() + (instanceIndex + 1) + "_ChosenHeuristic.txt";
             utils_.printArrayListInteger(heuristicList, arrayListPath);
             List<S> obtainedSolutionSet = SolutionListUtils.getNondominatedSolutions(inputPop);
             new SolutionListOutput(obtainedSolutionSet)
                     .setSeparator("\t")
-                    .setFunFileOutputContext(new DefaultFileOutputContext(folderPath + "/run_" + runIndex + "/" + "CF_FinalParetoFront_VC" + (instanceIndex + 1) + "_Run"
+                    .setFunFileOutputContext(new DefaultFileOutputContext(fullPath+"/"+problemCreator.getProblemClass() + (instanceIndex + 1) + "CF_FinalParetoFront"
                             + runIndex + ".txt"))
                     .print();
             //print out true front's hypervolume
@@ -375,22 +345,6 @@ public class AnyProblemChoiceFunction<S extends Solution<?>> {
             }
         }
 
-    }
-
-    public void updateReference(double[] max) {
-        if (reference == null) {
-            reference = new double[max.length];
-            Arrays.fill(reference, 1.0);
-        }
-        for (int i = 0; i < max.length; i++) {
-            reference[i] = Math.max(max[i], reference[i]);
-        }
-    }
-
-    public void updateReference(List<S> list) {
-        Front front = new ArrayFront(list);
-        double[] tempMaximum = FrontUtils.getMaximumValues(front);
-        updateReference(tempMaximum);
     }
 
 }

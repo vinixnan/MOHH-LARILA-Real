@@ -36,7 +36,7 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
         int fixedGeneration = 20;
         int popSize = 100;
         long seed = System.currentTimeMillis();
-        boolean small = true;
+        boolean small = false;
         //Logger logger_ = Configuration.logger_;
         String[] algorithm = {"LAResutls", "DominanceInitalNew", "CF", "MetaH"};
         String problemClass = "Real";
@@ -44,7 +44,7 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
         problemClass = "Real";
         int qtdAlgs = 5;
         //String configFile = "HF_Config_Benchmark/VCProblemSetting.txt";
-        int runningAlgorithmIndex = 1;//0 is LA, 1 is RILA
+        int runningAlgorithmIndex = 2;//0 is LA, 1 is RILA
         //runningAlgorithmIndex = 0;//0 is LA, 1 is RILA
         int run = 0;
         if (args.length == 7) {
@@ -104,7 +104,8 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
 
         for (int runIndex = run; runIndex < runMax; runIndex++) {
             //logger_.info("Start running... Run " + runIndex);
-            File runFolder = new File(folderPath + "/" + runningAlgorithm + "/run_" + runIndex);
+            String full=folderPath + "/" + runningAlgorithm + "/run_" + runIndex;
+            File runFolder = new File(full);
             //File runFolder = new File(folderPath+"\\LAResutls\\run_"+runIndex);	
             if (!runFolder.exists()) {
                 if (runFolder.mkdirs()) {
@@ -165,7 +166,7 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
                 }
                 case 2:
                     AnyProblemChoiceFunction cf = new AnyProblemChoiceFunction(problemCreator, popSize);
-                    cf.run(runIndex);
+                    cf.run(runIndex, full);
                     break;
                 case 3:
                     //for (problemIndex = 0; problemIndex < problemCreator.getQtdProblem(); problemIndex++) {

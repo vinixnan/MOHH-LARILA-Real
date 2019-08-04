@@ -208,20 +208,4 @@ public abstract class LALearning<S extends Solution<?>> implements Serializable 
         // TODO Auto-generated method stub
 
     }
-    
-    public void updateReference(double[] max) {
-        if (reference == null) {
-            reference = new double[max.length];
-            Arrays.fill(reference, 1.0);
-        }
-        for (int i = 0; i < max.length; i++) {
-            reference[i] = Math.max(max[i], reference[i]);
-        }
-    }
-    
-    public void updateReference(List<S> list) {
-        Front front = new ArrayFront(list);
-        double[] tempMaximum = FrontUtils.getMaximumValues(front);
-        updateReference(tempMaximum);
-    }
 }
