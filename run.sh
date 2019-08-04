@@ -29,6 +29,7 @@ kinds="0 1"
 problemClasses="Real"
 qtdAlgs=5
 sizes="10"
+sizes="2"
 
 for problemClass in $problemClasses
 do
