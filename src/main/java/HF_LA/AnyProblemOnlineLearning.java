@@ -742,7 +742,6 @@ public class AnyProblemOnlineLearning<S extends Solution<?>> extends LALearning 
             //random chose the first heuristic to start with
             List<S> currentPop = null;
             List<S> inputPop = ProblemCreator.generateInitialPopulation(problemInstances[instanceIndex], popSize);
-            updateReference(inputPop);
             List<S> initialPop = null;
 
             ArrayList<Double> hypervolumeList = new ArrayList<Double>();
@@ -832,7 +831,6 @@ public class AnyProblemOnlineLearning<S extends Solution<?>> extends LALearning 
             while (hypImprovement >= hyperImproveLimit && tempExecutedGen < maximumIterations) {
 
                 currentPop = algorithm[instanceIndex].execute(inputPop, fixedSolutionEvl);
-                updateReference(currentPop);
                 iteration++;
                 remainEval -= fixedSolutionEvl;
                 inputPop = currentPop;

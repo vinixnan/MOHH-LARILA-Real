@@ -1,4 +1,4 @@
-#!/bin/bash
+ls#!/bin/bash
 
 
 function runIt {
@@ -26,9 +26,11 @@ function runIt {
 
 rm -f "runMain.txt"
 kinds="0 1"
-problemClasses="Real"
+problemClasses="VC Real"
 qtdAlgs=5
 sizes="10"
+sizes="25"
+kinds="2"
 
 for problemClass in $problemClasses
 do

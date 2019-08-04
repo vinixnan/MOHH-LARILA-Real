@@ -353,8 +353,7 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
             // run each algorithm and rank them
             // Step 1. Generate the initial population
             List<S> initialPopulation = ProblemCreator.generateInitialPopulation(problemInstances[instanceIndex], popSize);
-            updateReference(initialPopulation);
-
+            
             // Step 2. Execute each algorithm use the same population for three
             // steps.
             List<S>[] resultSolutions = new List[algorithms.length];
@@ -394,7 +393,6 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
 
                     try {
                         resultSolutions[j] = eachAlgorithm.execute(/*initialPopulation*/inputSolutions[j], eachSampleSize);
-                        updateReference(resultSolutions[j]);
                     } catch (Exception e) {
                         e.printStackTrace();
                     }
@@ -694,7 +692,6 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
                 }
 
                 currentPop = algorithm[instanceIndex].execute(inputPop, fixedSolutionEvl);
-                updateReference(currentPop);
                 //temAbsoluteHypervolume = hyp.hypervolumeForSolutionSet(currentPop, referencePoint);
                 //abHypervolume.add(temAbsoluteHypervolume);
 
