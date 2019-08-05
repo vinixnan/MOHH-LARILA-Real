@@ -31,6 +31,7 @@ qtdAlgs=5
 sizes="10"
 sizes="25"
 kinds="2"
+problemClasses="Real"
 
 for problemClass in $problemClasses
 do
@@ -43,5 +44,5 @@ do
 	done
 done
 
-cat "runMain.txt" | xargs -I CMD -P 5  bash -c CMD &
+cat "runMain.txt" | xargs -I CMD -P 6  bash -c CMD &
 wait
