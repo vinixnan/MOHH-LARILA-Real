@@ -69,6 +69,10 @@ public class AnyProblemChoiceFunction<S extends Solution<?>> {
 
         int arcSize = Integer.parseInt(config.getProperty("ArchiveSize"));
         populationSize = Integer.parseInt(config.getProperty("PopulationSize"));
+        
+        arcSize=30;
+        populationSize=30;
+        totalEval=1500;
 
         //int populationSize = popSize;
         int fixedSolutionEvl = (int) (totalEval / decisionPoints);
@@ -109,7 +113,7 @@ public class AnyProblemChoiceFunction<S extends Solution<?>> {
 
         choiceFunction CF = new choiceFunction();
 
-        for (int instanceIndex = 0; instanceIndex < problemInstances.length; instanceIndex++) {
+        for (int instanceIndex = 6; instanceIndex < problemInstances.length; instanceIndex++) {
             numberOfObj=problemInstances[instanceIndex].getNumberOfObjectives();
             reference = new double[numberOfObj];
             Arrays.fill(reference,1.0);
