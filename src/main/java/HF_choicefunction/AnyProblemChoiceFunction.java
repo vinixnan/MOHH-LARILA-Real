@@ -15,8 +15,10 @@ import HF_choicefunction.choiceFunction;
 import br.usp.poli.pcs.lti.jmetalhhhelper.core.interfaces.LLHInterface;
 import helpers.AlgorithmCreator;
 import helpers.ProblemCreator;
+import java.security.SecureRandom;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 import javax.management.JMException;
 import jmetal.qualityIndicator.util.MetricsUtilPlus;
 import org.uma.jmetal.operator.Operator;
@@ -85,6 +87,8 @@ public class AnyProblemChoiceFunction<S extends Solution<?>> {
 
         String SolutionType = config.getProperty("SolutionType");
         int popSize = Integer.parseInt(config.getProperty("PopulationSize"));
+        
+        popSize=30;
 
         Problem[] problemInstances = new Problem[problemCreator.getQtdProblem()];
         int[] numberOfVar = new int[problemCreator.getQtdProblem()];
@@ -235,6 +239,11 @@ public class AnyProblemChoiceFunction<S extends Solution<?>> {
                 heuristicList.add(chosenHeuristic);
                 if (fixedSolutionEvl > remainEval) {
                     fixedSolutionEvl = remainEval;
+                }
+                //warranty size. necessary for small pop
+                Random rsn=new SecureRandom();
+                while(inputPop.size() < populationSize){
+                    inputPop.add(inputPop.get(rsn.nextInt(inputPop.size())));
                 }
                 resultSolutions[chosenHeuristic] = algorithm[instanceIndex].execute(inputPop, fixedSolutionEvl);
                 inputPop = resultSolutions[chosenHeuristic];
