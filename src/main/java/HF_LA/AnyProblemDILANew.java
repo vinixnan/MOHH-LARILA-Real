@@ -15,6 +15,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Properties;
+import java.util.Random;
 import javax.management.JMException;
 import jmetal.qualityIndicator.GSpread;
 import jmetal.qualityIndicator.HyperVolumeMinimizationProblem;
@@ -657,6 +658,7 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
             algorithm[instanceIndex] = ac.create(chosenHeuristic, remainEval);
             inputPop = initialPopulation;
             try {
+                warrantySize(inputPop);
                 currentPop = algorithm[instanceIndex].execute(inputPop,
                         fixedSolutionEvl);
             } catch (Exception e) {
@@ -690,7 +692,7 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
                 if (fixedSolutionEvl > remainEval) {
                     fixedSolutionEvl = remainEval;
                 }
-
+                warrantySize(inputPop);
                 currentPop = algorithm[instanceIndex].execute(inputPop, fixedSolutionEvl);
                 //temAbsoluteHypervolume = hyp.hypervolumeForSolutionSet(currentPop, referencePoint);
                 //abHypervolume.add(temAbsoluteHypervolume);
@@ -824,7 +826,7 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
                     if (fixedSolutionEvl > remainEval) {
                         fixedSolutionEvl = remainEval;
                     }
-
+                    warrantySize(inputPop);
                     currentPop = algorithm[instanceIndex].execute(inputPop, fixedSolutionEvl); // TODO Auto-generated catch block
                     // TODO Auto-generated catch block
                     inputPop = currentPop;
@@ -1423,6 +1425,7 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
             inputPop = resultSolutions[maximumHypPopIndex];
             //System.out.println("Execute "+chosenHeuristic);
             try {
+                warrantySize(inputPop);
                 recordPop = algorithm[instanceIndex].execute(inputPop,
                         fixedSolutionEvl);
             } catch (Exception e) {
@@ -1446,7 +1449,7 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
             double hypImprovement = Double.MAX_VALUE;
             double previousHyp = 0.0;
             while (hypImprovement > hyperImproveLimit && tempExecutedGen < maximumIterations && remainEval > 0) {
-
+                warrantySize(inputPop);
                 currentPop = algorithm[instanceIndex].execute(inputPop, fixedSolutionEvl);
                 iteration++;
                 remainEval -= fixedSolutionEvl;
@@ -1610,6 +1613,7 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
                     }
                     algorithm[instanceIndex].setPopulationSize(inputPop.size());
                     //Protection
+                    warrantySize(inputPop);
                     currentPop = algorithm[instanceIndex].execute(inputPop,/*fixedSolutionEvl*/ feasableSolutionEval); // TODO Auto-generated catch block
                     // TODO Auto-generated catch block
                     inputPop = currentPop;
@@ -2075,6 +2079,13 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
             }
         }
 
+    }
+    
+    private void warrantySize(List inputPop) {
+        Random rsn = new SecureRandom();
+        while (inputPop.size() < populationSize) {
+            inputPop.add(inputPop.get(rsn.nextInt(inputPop.size())));
+        }
     }
 
     public void updateMaximumValues(List<S> solutions) {

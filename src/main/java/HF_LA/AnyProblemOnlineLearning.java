@@ -12,8 +12,10 @@ import jmetal.qualityIndicator.HyperVolumeMinimizationProblem;
 import jmetal.qualityIndicator.util.MetricsUtil;
 import java.io.File;
 import br.usp.poli.pcs.lti.jmetalhhhelper.core.interfaces.LLHInterface;
+import java.security.SecureRandom;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 import javax.management.JMException;
 import jmetal.qualityIndicator.util.IBEAFitness;
 import jmetal.qualityIndicator.util.MetricsUtilPlus;
@@ -338,9 +340,10 @@ public class AnyProblemOnlineLearning<S extends Solution<?>> extends LALearning 
             AlgorithmCreator ac = new AlgorithmCreator(problemInstances[instanceIndex]);
             ac.setMaxEvaluationsAndPopulation(totalEval, populationSize);
             algorithm[instanceIndex] = ac.create(chosenHeuristic, remainEval);
-
+            
             // Execute the Algorithm		
             try {
+                warrantySize(inputPop);
                 currentPop = algorithm[instanceIndex].execute(inputPop, fixedSolutionEvl);
             } catch (Exception e) {
 //				} catch (ClassNotFoundException | JMException e) {
@@ -366,7 +369,7 @@ public class AnyProblemOnlineLearning<S extends Solution<?>> extends LALearning 
             double previousHyp = 0.0;
 
             while (hypImprovement >= hyperImproveLimit && tempExecutedGen < maximumIterations) {
-
+                warrantySize(inputPop);
                 currentPop = algorithm[instanceIndex].execute(inputPop, fixedSolutionEvl);;
                 iteration++;
                 remainEval -= fixedSolutionEvl;
@@ -457,7 +460,7 @@ public class AnyProblemOnlineLearning<S extends Solution<?>> extends LALearning 
                     if (remainEval < fixedSolutionEvl) {
                         feasableSolutionEval = remainEval;
                     }
-
+                    warrantySize(inputPop);
                     currentPop = algorithm[instanceIndex].execute(inputPop,/*fixedSolutionEvl*/ feasableSolutionEval); // TODO Auto-generated catch block
                     // TODO Auto-generated catch block
                     inputPop = currentPop;
@@ -677,6 +680,13 @@ public class AnyProblemOnlineLearning<S extends Solution<?>> extends LALearning 
         return null;
 
     }
+    
+    private void warrantySize(List inputPop) {
+        Random rsn = new SecureRandom();
+        while (inputPop.size() < populationSize) {
+            inputPop.add(inputPop.get(rsn.nextInt(inputPop.size())));
+        }
+    }
 
     @Override
     public List<S> runLA() throws IOException, ClassNotFoundException, JMException {
@@ -804,6 +814,7 @@ public class AnyProblemOnlineLearning<S extends Solution<?>> extends LALearning 
             algorithm[instanceIndex] = ac.create(chosenHeuristic, remainEval);
             // Execute the Algorithm		
             try {
+                warrantySize(inputPop);
                 currentPop = algorithm[instanceIndex].execute(inputPop, fixedSolutionEvl);
             } catch (Exception e) {
 //			} catch (ClassNotFoundException | JMException e) {
@@ -829,7 +840,7 @@ public class AnyProblemOnlineLearning<S extends Solution<?>> extends LALearning 
             double previousHyp = 0.0;
 
             while (hypImprovement >= hyperImproveLimit && tempExecutedGen < maximumIterations) {
-
+                warrantySize(inputPop);
                 currentPop = algorithm[instanceIndex].execute(inputPop, fixedSolutionEvl);
                 iteration++;
                 remainEval -= fixedSolutionEvl;
@@ -937,7 +948,7 @@ public class AnyProblemOnlineLearning<S extends Solution<?>> extends LALearning 
                     if (remainEval < fixedSolutionEvl) {
                         feasableSolutionEval = remainEval;
                     }
-
+                    warrantySize(inputPop);
                     currentPop = algorithm[instanceIndex].execute(inputPop,/*fixedSolutionEvl*/ feasableSolutionEval); // TODO Auto-generated catch block
                     // TODO Auto-generated catch block
                     inputPop = currentPop;

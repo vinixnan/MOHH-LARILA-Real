@@ -25,12 +25,12 @@ function runIt {
 }
 
 rm -f "runMain.txt"
-kinds="0 1"
 problemClasses="VC Real"
 qtdAlgs=5
 sizes="10"
 sizes="25"
-kinds="2"
+kinds="0 1"
+sizes="2 1"
 problemClasses="Real"
 
 for problemClass in $problemClasses
