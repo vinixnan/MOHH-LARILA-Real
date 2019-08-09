@@ -1,0 +1,115 @@
+Real qtdAlgs=5 fixedGeneration=2 with runningAlgorithmIndex=0 run for 18 from 17 _small_
+[NSGAII, SPEA2, IBEA, mIBEA, GDE3]
+AucMaximization is running...
+Set iterations=50 popSize=30
+Create 3 at 1500
+Create 4 at 1440
+Create 1 at 1380
+Create 4 at 1320
+Create 1 at 1260
+Create 4 at 1200
+Create 1 at 1140
+Create 4 at 1080
+Create 4 at 1020
+Create 2 at 960
+Create 1 at 900
+Create 4 at 840
+Create 1 at 780
+Create 4 at 720
+Create 1 at 660
+Create 4 at 600
+Create 1 at 540
+Create 4 at 480
+Create 1 at 420
+Create 4 at 360
+Create 1 at 300
+Create 4 at 240
+Create 1 at 180
+Create 4 at 120
+Create 1 at 60
+Remain solution evl is 0. Iteration is 25
+NeuralNetDoublePoleBalancing is running...
+Set iterations=50 popSize=30
+Create 4 at 1500
+Create 2 at 1440
+Create 4 at 1380
+Create 0 at 1320
+Create 3 at 1260
+Create 3 at 1200
+Create 3 at 1140
+Create 3 at 1080
+Create 4 at 1020
+Create 4 at 960
+Create 2 at 900
+Create 4 at 840
+Create 2 at 780
+Create 1 at 720
+Create 3 at 660
+Create 3 at 600
+Create 1 at 540
+Create 3 at 480
+Create 1 at 420
+Create 3 at 360
+Create 1 at 300
+Create 1 at 240
+Create 3 at 180
+Create 1 at 120
+Create 3 at 60
+Remain solution evl is 0. Iteration is 25
+KernelRidgeRegressionParameterTuning is running...
+Set iterations=50 popSize=30
+Create 1 at 1500
+Create 2 at 1440
+Create 0 at 1380
+Create 3 at 1320
+Create 2 at 1260
+Create 4 at 1200
+Create 2 at 1140
+Create 4 at 1080
+Create 4 at 1020
+Create 3 at 960
+Create 3 at 900
+Create 2 at 840
+Create 4 at 780
+Create 3 at 720
+Create 2 at 660
+Create 4 at 600
+Create 3 at 540
+Create 2 at 480
+Create 0 at 420
+Create 3 at 360
+Create 2 at 300
+Create 4 at 240
+Create 3 at 180
+Create 2 at 120
+Create 4 at 60
+Remain solution evl is 0. Iteration is 25
+FacilityPlacement is running...
+Set iterations=50 popSize=30
+Create 1 at 1500
+Create 2 at 1440
+Create 3 at 1380
+Create 4 at 1320
+Create 1 at 1260
+Create 4 at 1200
+Create 4 at 1140
+Create 1 at 1080
+Create 4 at 1020
+Create 2 at 960
+Create 2 at 900
+Create 3 at 840
+Create 4 at 780
+Create 1 at 720
+Create 4 at 660
+Create 1 at 600
+Create 4 at 540
+Create 1 at 480
+Create 4 at 420
+Create 1 at 360
+Create 4 at 300
+Create 1 at 240
+Create 4 at 180
+Create 1 at 120
+Create 4 at 60
+Remain solution evl is 0. Iteration is 25
+Finished...
