@@ -45,7 +45,7 @@ import uk.ac.nottingham.asap.realproblems.*;
  */
 public class RealStudy<S extends Solution<?>> {
 
-    private static final int INDEPENDENT_RUNS = 40;
+    private static final int INDEPENDENT_RUNS = 30;
 
     public static void main(String[] args) throws IOException, JMException {
         String experimentBaseDirectory;
@@ -55,7 +55,7 @@ public class RealStudy<S extends Solution<?>> {
             experimentBaseDirectory = args[0];
         }
 
-        int core = 5;
+        int core = 3;
         
         List<ExperimentProblem<DoubleSolution>> problemList = new ArrayList<>();
 
@@ -67,6 +67,7 @@ public class RealStudy<S extends Solution<?>> {
         //problemList.add(new ExperimentProblem<>(new HeatExchanger()));
         //problemList.add(new ExperimentProblem<>(new HydroDynamics()));
         //problemList.add(new ExperimentProblem<>(new AucMaximization()));
+        /*
         problemList.add(new ExperimentProblem<>(new FacilityPlacement()));
         problemList.add(new ExperimentProblem<>(new FourBarTruss()));
         problemList.add(new ExperimentProblem<>(new Golinski()));
@@ -79,7 +80,8 @@ public class RealStudy<S extends Solution<?>> {
         //problemList.add(new ExperimentProblem<>(new NeuralNetDoublePoleBalancing()));
         //problemList.add(new ExperimentProblem<>(new KernelRidgeRegressionParameterTuning()));//pesado
         //problemList.add(new ExperimentProblem<>(new HydroDynamics()));
-
+*/
+        problemList.add(new ExperimentProblem<>(new KernelRidgeRegressionParameterTuning()));
         List<ExperimentAlgorithm<DoubleSolution, List<DoubleSolution>>> algorithmList
                 = configureAlgorithmList(problemList);
 
@@ -119,9 +121,7 @@ public class RealStudy<S extends Solution<?>> {
                 String problemName = problemList.get(i).getProblem().getName();
                 int numGenerations = 1000;
                 int populationSize = 100;
-                if (problemName.equals("AucMaximization") || problemName.equals("NeuralNetDoublePoleBalancing") || problemName.equals("KernelRidgeRegressionParameterTuning")) {
-                    numGenerations = 200;
-                } else if (problemName.equals("FacilityPlacement")) {
+                if (problemName.equals("FacilityPlacement") || problemName.equals("AucMaximization") || problemName.equals("NeuralNetDoublePoleBalancing") || problemName.equals("KernelRidgeRegressionParameterTuning")) {
                     populationSize = 30;
                     numGenerations = 50;
                 }
