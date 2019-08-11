@@ -77,11 +77,11 @@ public class RealStudy<S extends Solution<?>> {
         String[] objectiveList={"W","D", "SSAE", "ENS", "MDV"};
         
         problemList.add(new ExperimentProblem(new Ebes(ebesFileName, objectiveList)));
-        //problemList.add(new ExperimentProblem<>(new NeuralNetDoublePoleBalancing()));
         //problemList.add(new ExperimentProblem<>(new KernelRidgeRegressionParameterTuning()));//pesado
         //problemList.add(new ExperimentProblem<>(new HydroDynamics()));
 */
-        problemList.add(new ExperimentProblem<>(new KernelRidgeRegressionParameterTuning()));
+        //problemList.add(new ExperimentProblem<>(new KernelRidgeRegressionParameterTuning()));
+        problemList.add(new ExperimentProblem<>(new NeuralNetDoublePoleBalancing()));
         List<ExperimentAlgorithm<DoubleSolution, List<DoubleSolution>>> algorithmList
                 = configureAlgorithmList(problemList);
 
@@ -121,7 +121,7 @@ public class RealStudy<S extends Solution<?>> {
                 String problemName = problemList.get(i).getProblem().getName();
                 int numGenerations = 1000;
                 int populationSize = 100;
-                if (problemName.equals("FacilityPlacement") || problemName.equals("AucMaximization") || problemName.equals("NeuralNetDoublePoleBalancing") || problemName.equals("KernelRidgeRegressionParameterTuning")) {
+                if (problemName.equals("FacilityPlacement") || problemName.equals("AucMaximization") || problemName.equals("KernelRidgeRegressionParameterTuning")) {
                     populationSize = 30;
                     numGenerations = 50;
                 }
