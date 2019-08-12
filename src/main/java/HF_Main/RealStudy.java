@@ -81,7 +81,8 @@ public class RealStudy<S extends Solution<?>> {
         //problemList.add(new ExperimentProblem<>(new HydroDynamics()));
 */
         //problemList.add(new ExperimentProblem<>(new KernelRidgeRegressionParameterTuning()));
-        problemList.add(new ExperimentProblem<>(new NeuralNetDoublePoleBalancing()));
+        //problemList.add(new ExperimentProblem<>(new NeuralNetDoublePoleBalancing()));
+        problemList.add(new ExperimentProblem<>(new AucMaximization()));
         List<ExperimentAlgorithm<DoubleSolution, List<DoubleSolution>>> algorithmList
                 = configureAlgorithmList(problemList);
 
