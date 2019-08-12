@@ -119,9 +119,9 @@ public class RealStudy<S extends Solution<?>> {
             for (int i = 0; i < problemList.size(); i++) {
                 AlgorithmCreator ac = new AlgorithmCreator(problemList.get(i).getProblem());
                 String problemName = problemList.get(i).getProblem().getName();
-                int numGenerations = 1000;
+                int numGenerations = 250;
                 int populationSize = 100;
-                if (problemName.equals("FacilityPlacement") || problemName.equals("AucMaximization") || problemName.equals("KernelRidgeRegressionParameterTuning")) {
+                if (problemName.equals("FacilityPlacement") || problemName.equals("KernelRidgeRegressionParameterTuning")) {
                     populationSize = 30;
                     numGenerations = 50;
                 }
