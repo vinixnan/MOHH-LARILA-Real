@@ -44,5 +44,5 @@ do
 	done
 done
 
-cat "runMain.txt" | xargs -I CMD -P 4  bash -c CMD &
-wait
+#cat "runMain.txt" | xargs -I CMD -P 4  bash -c CMD &
+#wait

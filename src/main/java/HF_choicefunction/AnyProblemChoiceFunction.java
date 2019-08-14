@@ -72,9 +72,9 @@ public class AnyProblemChoiceFunction<S extends Solution<?>> {
         int arcSize = Integer.parseInt(config.getProperty("ArchiveSize"));
         populationSize = Integer.parseInt(config.getProperty("PopulationSize"));
         
-        arcSize=30;
-        populationSize=30;
-        totalEval=1500;
+        arcSize=100;
+        populationSize=100;
+        totalEval=250*100;
 
         //int populationSize = popSize;
         int fixedSolutionEvl = (int) (totalEval / decisionPoints);
@@ -88,7 +88,7 @@ public class AnyProblemChoiceFunction<S extends Solution<?>> {
         String SolutionType = config.getProperty("SolutionType");
         int popSize = Integer.parseInt(config.getProperty("PopulationSize"));
         
-        popSize=30;
+        popSize=100;
 
         Problem[] problemInstances = new Problem[problemCreator.getQtdProblem()];
         int[] numberOfVar = new int[problemCreator.getQtdProblem()];
