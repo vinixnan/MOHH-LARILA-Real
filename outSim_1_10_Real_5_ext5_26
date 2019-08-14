@@ -1,0 +1,65 @@
+Real qtdAlgs=5 fixedGeneration=10 with runningAlgorithmIndex=1 run for 27 from 26 _small_
+[NSGAII, SPEA2, IBEA, mIBEA, GDE3]
+Running AucMaximization
+Set iterations=250 popSize=100
+Create 0 at 25000
+Create 1 at 24000
+Create 2 at 23000
+Create 3 at 22000
+Create 4 at 21000
+Create 0 at 20000
+Create 1 at 19000
+Create 2 at 18000
+Create 3 at 17000
+Create 4 at 16000
+Create 0 at 15000
+Create 1 at 14000
+Create 2 at 13000
+Create 3 at 12000
+Create 4 at 11000
+Create 0 at 10000
+Create 1 at 9000
+Create 2 at 8000
+Create 3 at 7000
+Create 4 at 6000
+Create 0 at 5000
+Create 1 at 4000
+Create 2 at 3000
+Create 3 at 2000
+Create 4 at 1000
+Rerank sum 7 at 26 problem 7
+Set iterations=250 popSize=100
+Create 2 at 0
+AucMaximization
+Running NeuralNetDoublePoleBalancing
+Set iterations=250 popSize=100
+Create 0 at 25000
+Create 1 at 24000
+Create 2 at 23000
+Create 3 at 22000
+Create 4 at 21000
+Create 0 at 20000
+Create 1 at 19000
+Create 2 at 18000
+Create 3 at 17000
+Create 4 at 16000
+Create 0 at 15000
+Create 1 at 14000
+Create 2 at 13000
+Create 3 at 12000
+Create 4 at 11000
+Create 0 at 10000
+Create 1 at 9000
+Create 2 at 8000
+Create 3 at 7000
+Create 4 at 6000
+Create 0 at 5000
+Create 1 at 4000
+Create 2 at 3000
+Create 3 at 2000
+Create 4 at 1000
+Rerank sum 7 at 26 problem 8
+Set iterations=250 popSize=100
+Create 4 at 0
+NeuralNetDoublePoleBalancing
+Finished...
