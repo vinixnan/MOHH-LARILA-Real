@@ -2,7 +2,7 @@
 
 
 function runIt {
-	qtdExp=40
+	qtdExp=30
 	seed=-1
 	kind=$1
 	fixedGen=$2
@@ -27,12 +27,10 @@ function runIt {
 rm -f "runMain.txt"
 problemClasses="VC Real"
 qtdAlgs=5
-sizes="10"
-sizes="25"
-kinds="0 1"
-sizes="2 1"
 problemClasses="Real"
 
+sizes="10"
+kinds="0 1"
 for problemClass in $problemClasses
 do
 	for size in $sizes 
@@ -44,5 +42,18 @@ do
 	done
 done
 
-#cat "runMain.txt" | xargs -I CMD -P 4  bash -c CMD &
-#wait
+kinds="2"
+sizes="25"
+for problemClass in $problemClasses
+do
+	for size in $sizes 
+	do
+		for kind in $kinds 
+		do
+			runIt $kind $size $problemClass $qtdAlgs
+		done	
+	done
+done
+
+cat "runMain.txt" | xargs -I CMD -P 4  bash -c CMD &
+wait
