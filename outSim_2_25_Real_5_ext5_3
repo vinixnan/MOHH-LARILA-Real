@@ -1,59 +1,59 @@
-Real qtdAlgs=5 fixedGeneration=25 with runningAlgorithmIndex=2 run for 4 from 3 
-CF; decision=25;fixed=1000;total=25000
+Real qtdAlgs=5 fixedGeneration=25 with runningAlgorithmIndex=2 run for 4 from 3 _small_
+CF; decision=25;fixed=60;total=1500
 Run 3....
-AucMaximization 2 10
-Set iterations=250 popSize=100
-Create 0 at 25000
-Create 1 at 24000
-Create 2 at 23000
-Create 3 at 22000
-Create 4 at 21000
-Create 0 at 20000
-Create 1 at 19000
-Create 1 at 18000
-Create 1 at 17000
-Create 1 at 16000
-Create 1 at 15000
-Create 1 at 14000
-Create 1 at 13000
-Create 1 at 12000
-Create 1 at 11000
-Create 1 at 10000
-Create 1 at 9000
-Create 1 at 8000
-Create 1 at 7000
-Create 1 at 6000
-Create 1 at 5000
-Create 1 at 4000
-Create 1 at 3000
-Create 1 at 2000
-Create 1 at 1000
-NeuralNetDoublePoleBalancing 2 24
-Set iterations=250 popSize=100
-Create 0 at 25000
-Create 1 at 24000
-Create 2 at 23000
-Create 3 at 22000
-Create 4 at 21000
-Create 4 at 20000
-Create 4 at 19000
-Create 4 at 18000
-Create 4 at 17000
-Create 4 at 16000
-Create 4 at 15000
-Create 4 at 14000
-Create 4 at 13000
-Create 4 at 12000
-Create 4 at 11000
-Create 4 at 10000
-Create 4 at 9000
-Create 4 at 8000
-Create 4 at 7000
-Create 4 at 6000
-Create 4 at 5000
-Create 4 at 4000
-Create 4 at 3000
-Create 4 at 2000
-Create 4 at 1000
+KernelRidgeRegressionParameterTuning 2 5
+Set iterations=50 popSize=30
+Create 0 at 1500
+Create 1 at 1440
+Create 2 at 1380
+Create 3 at 1320
+Create 4 at 1260
+Create 4 at 1200
+Create 4 at 1140
+Create 4 at 1080
+Create 4 at 1020
+Create 4 at 960
+Create 4 at 900
+Create 4 at 840
+Create 4 at 780
+Create 4 at 720
+Create 4 at 660
+Create 4 at 600
+Create 4 at 540
+Create 4 at 480
+Create 4 at 420
+Create 4 at 360
+Create 4 at 300
+Create 4 at 240
+Create 4 at 180
+Create 4 at 120
+Create 4 at 60
+FacilityPlacement 2 20
+Set iterations=50 popSize=30
+Create 0 at 1500
+Create 1 at 1440
+Create 2 at 1380
+Create 3 at 1320
+Create 4 at 1260
+Create 4 at 1200
+Create 4 at 1140
+Create 4 at 1080
+Create 4 at 1020
+Create 4 at 960
+Create 4 at 900
+Create 4 at 840
+Create 4 at 780
+Create 4 at 720
+Create 4 at 660
+Create 4 at 600
+Create 4 at 540
+Create 4 at 480
+Create 4 at 420
+Create 4 at 360
+Create 4 at 300
+Create 4 at 240
+Create 4 at 180
+Create 4 at 120
+Create 4 at 60
 Finished
 Finished...
