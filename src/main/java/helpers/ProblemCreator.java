@@ -162,8 +162,8 @@ public class ProblemCreator {
                 return 9;
             case "Real":
                 //return 6;
-                //return 8;
-                return 10;
+                return 8;
+                //return 10;
             case "VC":
                 return 11;
             default:

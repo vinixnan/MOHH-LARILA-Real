@@ -29,24 +29,9 @@ problemClasses="VC Real"
 qtdAlgs=5
 problemClasses="Real"
 
-#sizes="10"
-#kinds="0 1"
-#for problemClass in $problemClasses
-#do
-#	for size in $sizes 
-#	do
-#		for kind in $kinds 
-#		do
-#			runIt $kind $size $problemClass $qtdAlgs
-#		done	
-#	done
-#done
-
-kinds="2"
-sizes="25"
-problemClasses="VC"
-problemClasses="Real"
-
+sizes="10"
+sizes="5"
+kinds="0 1"
 for problemClass in $problemClasses
 do
 	for size in $sizes 
@@ -58,5 +43,21 @@ do
 	done
 done
 
-cat "runMain.txt" | xargs -I CMD -P 4  bash -c CMD &
+#kinds="2"
+#sizes="25"
+#problemClasses="VC"
+#problemClasses="Real"
+
+#for problemClass in $problemClasses
+#do
+#	for size in $sizes 
+#	do
+#		for kind in $kinds 
+#		do
+#			runIt $kind $size $problemClass $qtdAlgs
+#		done	
+#	done
+#done
+
+cat "runMain.txt" | xargs -I CMD -P 5  bash -c CMD &
 wait

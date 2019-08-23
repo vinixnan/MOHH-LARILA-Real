@@ -3,7 +3,7 @@ LearningPhase:0.5
 alpha:0.1
 lamada:0.1
 Multipler:2.5
-MaximumIterations:7
+MaximumIterations:15
 HypImprovment:0.0075
 ArchiveSize:100
 PopulationSize:100

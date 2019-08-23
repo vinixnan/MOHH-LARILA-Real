@@ -1614,6 +1614,7 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
                     algorithm[instanceIndex].setPopulationSize(inputPop.size());
                     //Protection
                     warrantySize(inputPop);
+                    System.out.println(inputPop.size());
                     currentPop = algorithm[instanceIndex].execute(inputPop,/*fixedSolutionEvl*/ feasableSolutionEval); // TODO Auto-generated catch block
                     // TODO Auto-generated catch block
                     inputPop = currentPop;
@@ -1786,6 +1787,7 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
 
             }
             String arrayListPath = folderPath + "/run_" + runIndex + "/" + problemCreator.getProblemClass() + (instanceIndex + 1) + "_ChosenHeuristic.txt";
+            System.out.println(arrayListPath);
             utils_.printArrayListInteger(heuristicList, arrayListPath);
             String betaValueListPath = folderPath + "/run_" + runIndex + "/" + problemCreator.getProblemClass() + (instanceIndex + 1) + "_rewardList.txt";
             utils_.printArrayListInteger(betaValue, betaValueListPath);

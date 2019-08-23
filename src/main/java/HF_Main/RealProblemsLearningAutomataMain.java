@@ -33,7 +33,7 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
         int runMax = 1;
         int problemIndex = 0, algId = 0;
         //for (int problemIndex = 2; problemIndex > 0; problemIndex--) {
-        int fixedGeneration = 2;
+        int fixedGeneration = 5;
         int popSize = 100;
         long seed = System.currentTimeMillis();
         boolean small = true;
@@ -41,10 +41,10 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
         String[] algorithm = {"LAResutls", "DominanceInitalNew", "CF", "MetaH"};
         String problemClass = "Real";
         problemClass = "Real";
-        problemClass = "VC";
+        //problemClass = "VC";
         int qtdAlgs = 5;
         //String configFile = "HF_Config_Benchmark/VCProblemSetting.txt";
-        int runningAlgorithmIndex = 2;//0 is LA, 1 is RILA
+        int runningAlgorithmIndex = 1;//0 is LA, 1 is RILA
         //runningAlgorithmIndex = 0;//0 is LA, 1 is RILA
         int run = 0;
         if (args.length == 7) {
