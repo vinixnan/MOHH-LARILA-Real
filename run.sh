@@ -9,7 +9,9 @@ function runIt {
 	problemClass=$3
 	qtdAlgs=$4
 	
-	number=1
+	
+	qtdExp=30
+	number=8
 	
 	while [ $number -le $qtdExp ]
 	do
@@ -31,23 +33,9 @@ problemClasses="Real"
 
 sizes="10"
 sizes="5"
-kinds="0 1"
-for problemClass in $problemClasses
-do
-	for size in $sizes 
-	do
-		for kind in $kinds 
-		do
-			runIt $kind $size $problemClass $qtdAlgs
-		done	
-	done
-done
+sizes="2"
 
-#kinds="2"
-#sizes="25"
-#problemClasses="VC"
-#problemClasses="Real"
-
+#kinds="1"
 #for problemClass in $problemClasses
 #do
 #	for size in $sizes 
@@ -59,5 +47,24 @@ done
 #	done
 #done
 
-cat "runMain.txt" | xargs -I CMD -P 5  bash -c CMD &
+#kinds="2"
+#sizes="25"
+#problemClasses="VC"
+#problemClasses="Real"
+
+kinds="0"
+for problemClass in $problemClasses
+do
+	for size in $sizes 
+	do
+		for kind in $kinds 
+		do
+			runIt $kind $size $problemClass $qtdAlgs
+		done	
+	done
+done
+
+#4 5 11 12 13 15 17 18 19 23 25 28
+
+cat "runMain.txt" | xargs -I CMD -P 4  bash -c CMD &
 wait
