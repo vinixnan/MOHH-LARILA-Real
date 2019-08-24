@@ -1,0 +1,112 @@
+Real qtdAlgs=5 fixedGeneration=5 with runningAlgorithmIndex=1 run for 26 from 25 _small_
+[NSGAII, SPEA2, IBEA, mIBEA, GDE3]
+Running AucMaximization
+Set iterations=250 popSize=100
+Create 0 at 25000
+Create 1 at 24500
+Create 2 at 24000
+Create 3 at 23500
+Create 4 at 23000
+Create 0 at 22500
+Create 1 at 22000
+Create 2 at 21500
+Create 3 at 21000
+Create 4 at 20500
+Create 0 at 20000
+Create 1 at 19500
+Create 2 at 19000
+Create 3 at 18500
+Create 4 at 18000
+Create 0 at 17500
+Create 1 at 17000
+Create 2 at 16500
+Create 3 at 16000
+Create 4 at 15500
+Create 0 at 15000
+Create 1 at 14500
+Create 2 at 14000
+Create 3 at 13500
+Create 4 at 13000
+Set iterations=250 popSize=100
+Create 2 at 12500
+Create 1 at 11500
+100
+Create 1 at 11000
+100
+Create 1 at 10500
+100
+Create 1 at 10000
+100
+Create 1 at 9500
+100
+Create 1 at 9000
+100
+Create 1 at 8500
+100
+Create 1 at 8000
+100
+Create 1 at 7500
+100
+Create 1 at 7000
+100
+Create 1 at 6500
+100
+Create 1 at 6000
+100
+Create 1 at 5500
+100
+Create 1 at 5000
+100
+Create 1 at 4500
+100
+Create 1 at 4000
+100
+Create 1 at 3500
+100
+Create 1 at 3000
+100
+Create 1 at 2500
+100
+Create 1 at 2000
+100
+Create 1 at 1500
+100
+Create 1 at 1000
+100
+Create 1 at 500
+100
+Remain solution evl is 0. Iteration is 50
+HF_Config_Benchmark/Results/Real/AM/DominanceInitalNew_5/run_25/Real7_ChosenHeuristic.txt
+AucMaximization
+Running NeuralNetDoublePoleBalancing
+Set iterations=250 popSize=100
+Create 0 at 25000
+Create 1 at 24500
+Create 2 at 24000
+Create 3 at 23500
+Create 4 at 23000
+Create 0 at 22500
+Create 1 at 22000
+Create 2 at 21500
+Create 3 at 21000
+Create 4 at 20500
+Create 0 at 20000
+Create 1 at 19500
+Create 2 at 19000
+Create 3 at 18500
+Create 4 at 18000
+Create 0 at 17500
+Create 1 at 17000
+Create 2 at 16500
+Create 3 at 16000
+Create 4 at 15500
+Create 0 at 15000
+Create 1 at 14500
+Create 2 at 14000
+Create 3 at 13500
+Create 4 at 13000
+Rerank sum 7 at 25 problem 8
+Set iterations=250 popSize=100
+Create 4 at 12500
+Create 0 at 11000
+100
