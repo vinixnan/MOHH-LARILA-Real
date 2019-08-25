@@ -33,7 +33,7 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
         int runMax = 1;
         int problemIndex = 0, algId = 0;
         //for (int problemIndex = 2; problemIndex > 0; problemIndex--) {
-        int fixedGeneration = 2;
+        int fixedGeneration = 1;
         int popSize = 100;
         long seed = System.currentTimeMillis();
         boolean small = true;

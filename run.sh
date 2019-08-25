@@ -11,13 +11,12 @@ function runIt {
 	
 	
 	qtdExp=30
-	number=8
+	number=0
 	
 	while [ $number -le $qtdExp ]
 	do
-			output="outSim_"$kind"_"$fixedGen"_"$problemClass"_"$qtdAlgs"_ext5_"$number
-			erroutput="errSim_"$kind"_"$fixedGen"_"$problemClass"_"$qtdAlgs"_ext5_"$number
 			echo "java -Xms1024m -Xmx1024m -cp target/MOHH-LARILA-1.0-SNAPSHOT.jar:target/lib/* HF_Main.RealProblemsLearningAutomataMain 0 $fixedGen $seed $kind $problemClass $qtdAlgs $number > $output 2> $erroutput" >> "runMain.txt"
+			
 			#echo "java -Xms1024m -Xmx1024m -cp 'target/MOHH-LARILA-1.0-SNAPSHOT.jar;target/lib/*' HF_Main.RealProblemsLearningAutomataMain 0 $fixedGen $seed $kind $problemClass $qtdAlgs $number > $output 2> $erroutput" >> "runMain.txt"
 			let number=$number+1;
 	done
@@ -33,7 +32,7 @@ problemClasses="Real"
 
 sizes="10"
 sizes="5"
-sizes="2"
+#sizes="2"
 
 #kinds="1"
 #for problemClass in $problemClasses
@@ -52,7 +51,8 @@ sizes="2"
 #problemClasses="VC"
 #problemClasses="Real"
 
-kinds="0"
+sizes="1"
+kinds="1"
 for problemClass in $problemClasses
 do
 	for size in $sizes 
@@ -64,7 +64,7 @@ do
 	done
 done
 
-#4 5 11 12 13 15 17 18 19 23 25 28
+
 
 cat "runMain.txt" | xargs -I CMD -P 4  bash -c CMD &
 wait
