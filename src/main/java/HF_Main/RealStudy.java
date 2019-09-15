@@ -55,7 +55,7 @@ public class RealStudy<S extends Solution<?>> {
             experimentBaseDirectory = args[0];
         }
 
-        int core = 3;
+        int core = 4;
         
         List<ExperimentProblem<DoubleSolution>> problemList = new ArrayList<>();
 
@@ -81,7 +81,7 @@ public class RealStudy<S extends Solution<?>> {
         //problemList.add(new ExperimentProblem<>(new HydroDynamics()));
 */
         //problemList.add(new ExperimentProblem<>(new KernelRidgeRegressionParameterTuning()));
-        //problemList.add(new ExperimentProblem<>(new NeuralNetDoublePoleBalancing()));
+        problemList.add(new ExperimentProblem<>(new NeuralNetDoublePoleBalancing()));
         problemList.add(new ExperimentProblem<>(new AucMaximization()));
         List<ExperimentAlgorithm<DoubleSolution, List<DoubleSolution>>> algorithmList
                 = configureAlgorithmList(problemList);
@@ -121,6 +121,7 @@ public class RealStudy<S extends Solution<?>> {
                 AlgorithmCreator ac = new AlgorithmCreator(problemList.get(i).getProblem());
                 String problemName = problemList.get(i).getProblem().getName();
                 int numGenerations = 250;
+                numGenerations = 1000;
                 int populationSize = 100;
                 if (problemName.equals("FacilityPlacement") || problemName.equals("KernelRidgeRegressionParameterTuning")) {
                     populationSize = 30;

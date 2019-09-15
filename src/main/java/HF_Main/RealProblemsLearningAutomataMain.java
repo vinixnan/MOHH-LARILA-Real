@@ -36,7 +36,7 @@ public class RealProblemsLearningAutomataMain<S extends Solution<?>> {
         int fixedGeneration = 1;
         int popSize = 100;
         long seed = System.currentTimeMillis();
-        boolean small = true;
+        boolean small = false;
         //Logger logger_ = Configuration.logger_;
         String[] algorithm = {"LAResutls", "DominanceInitalNew", "CF", "MetaH"};
         String problemClass = "Real";

@@ -75,10 +75,11 @@ public class AnyProblemChoiceFunction<S extends Solution<?>> {
         arcSize=100;
         populationSize=100;
         totalEval=250*100;
+        totalEval=1000*100;
         
-        arcSize=30;
-        populationSize=30;
-        totalEval=30*50;
+        //arcSize=30;
+        //populationSize=30;
+        //totalEval=30*50;
 
         //int populationSize = popSize;
         int fixedSolutionEvl = (int) (totalEval / decisionPoints);
@@ -93,7 +94,7 @@ public class AnyProblemChoiceFunction<S extends Solution<?>> {
         int popSize = Integer.parseInt(config.getProperty("PopulationSize"));
         
         popSize=100;
-        popSize=30;
+        //popSize=30;
 
         Problem[] problemInstances = new Problem[problemCreator.getQtdProblem()];
         int[] numberOfVar = new int[problemCreator.getQtdProblem()];
@@ -122,7 +123,7 @@ public class AnyProblemChoiceFunction<S extends Solution<?>> {
 
         choiceFunction CF = new choiceFunction();
 
-        for (int instanceIndex = 8; instanceIndex < problemInstances.length; instanceIndex++) {
+        for (int instanceIndex = 6; instanceIndex < problemInstances.length; instanceIndex++) {
             numberOfObj=problemInstances[instanceIndex].getNumberOfObjectives();
             reference = new double[numberOfObj];
             Arrays.fill(reference,1.0);

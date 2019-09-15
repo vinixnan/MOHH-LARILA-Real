@@ -1109,7 +1109,7 @@ public class AnyProblemDILANew<S extends Solution<?>> extends LALearning {
         HyperVolumeMinimizationProblem hyp = new HyperVolumeMinimizationProblem();
         GSpread GS = new GSpread();
 
-        for (int instanceIndex = 8; instanceIndex < problemCreator.getQtdProblem(); instanceIndex++) {
+        for (int instanceIndex = 6; instanceIndex < problemCreator.getQtdProblem(); instanceIndex++) {
             System.out.println("Running " + problemInstances[instanceIndex].getName()); // for each instanceIndex
             numberOfObj = problemInstances[instanceIndex].getNumberOfObjectives();
             reference = new double[numberOfObj];
