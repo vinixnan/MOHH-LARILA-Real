@@ -1,0 +1,139 @@
+Real qtdAlgs=5 fixedGeneration=1 with runningAlgorithmIndex=1 run for 19 from 18 _small_
+[NSGAII, SPEA2, IBEA, mIBEA, GDE3]
+Running KernelRidgeRegressionParameterTuning
+Set iterations=50 popSize=30
+Create 0 at 1500
+Create 1 at 1470
+Create 2 at 1440
+Create 3 at 1410
+Create 4 at 1380
+Create 0 at 1350
+Create 1 at 1320
+Create 2 at 1290
+Create 3 at 1260
+Create 4 at 1230
+Create 0 at 1200
+Create 1 at 1170
+Create 2 at 1140
+Create 3 at 1110
+Create 4 at 1080
+Create 0 at 1050
+Create 1 at 1020
+Create 2 at 990
+Create 3 at 960
+Create 4 at 930
+Create 0 at 900
+Create 1 at 870
+Create 2 at 840
+Create 3 at 810
+Create 4 at 780
+Set iterations=50 popSize=30
+Create 4 at 750
+Create 4 at 630
+30
+Create 4 at 600
+30
+Create 4 at 570
+30
+Create 4 at 540
+30
+Create 3 at 510
+30
+Create 4 at 480
+30
+Create 4 at 450
+30
+Create 4 at 420
+30
+Create 4 at 390
+30
+Create 4 at 360
+30
+Create 4 at 330
+30
+30
+Create 4 at 270
+30
+Create 4 at 240
+30
+Create 4 at 210
+30
+Create 3 at 180
+30
+Create 4 at 150
+30
+Create 3 at 120
+30
+Create 4 at 90
+30
+Create 3 at 60
+30
+Create 4 at 30
+30
+Remain solution evl is 0. Iteration is 50
+HF_Config_Benchmark/Results/Real/AM/DominanceInitalNew_1/run_18/Real9_ChosenHeuristic.txt
+KernelRidgeRegressionParameterTuning
+Running FacilityPlacement
+Set iterations=50 popSize=30
+Create 0 at 1500
+Create 1 at 1470
+Create 2 at 1440
+Create 3 at 1410
+Create 4 at 1380
+Create 0 at 1350
+Create 1 at 1320
+Create 2 at 1290
+Create 3 at 1260
+Create 4 at 1230
+Create 0 at 1200
+Create 1 at 1170
+Create 2 at 1140
+Create 3 at 1110
+Create 4 at 1080
+Create 0 at 1050
+Create 1 at 1020
+Create 2 at 990
+Create 3 at 960
+Create 4 at 930
+Create 0 at 900
+Create 1 at 870
+Create 2 at 840
+Create 3 at 810
+Create 4 at 780
+Set iterations=50 popSize=30
+Create 4 at 750
+Create 2 at 570
+30
+Create 3 at 540
+30
+30
+30
+30
+Create 2 at 420
+30
+Create 3 at 390
+30
+30
+Create 4 at 330
+30
+30
+Create 4 at 270
+30
+Create 3 at 240
+30
+Create 4 at 210
+30
+30
+Create 4 at 150
+30
+30
+Create 4 at 90
+30
+Create 4 at 60
+30
+Create 4 at 30
+30
+Remain solution evl is 0. Iteration is 50
+HF_Config_Benchmark/Results/Real/AM/DominanceInitalNew_1/run_18/Real10_ChosenHeuristic.txt
+FacilityPlacement
+Finished...
